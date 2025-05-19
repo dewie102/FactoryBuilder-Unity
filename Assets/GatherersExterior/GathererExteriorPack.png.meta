@@ -1,0 +1,2880 @@
+fileFormatVersion: 2
+guid: b290b25f91aea338a9e4dfb671c736d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7915608635930783463
+    second: GathererExteriorPack_0
+  - first:
+      213: -3767890034987464108
+    second: GathererExteriorPack_1
+  - first:
+      213: -8646985973659889851
+    second: GathererExteriorPack_2
+  - first:
+      213: 5352206863297873219
+    second: GathererExteriorPack_3
+  - first:
+      213: -3085917632422436247
+    second: GathererExteriorPack_4
+  - first:
+      213: 8098283746524571194
+    second: GathererExteriorPack_5
+  - first:
+      213: 6976979986532953064
+    second: GathererExteriorPack_6
+  - first:
+      213: 6506704731975136068
+    second: GathererExteriorPack_7
+  - first:
+      213: -6893833625803942490
+    second: GathererExteriorPack_8
+  - first:
+      213: 290899021128292625
+    second: GathererExteriorPack_9
+  - first:
+      213: -3204856362247836531
+    second: GathererExteriorPack_10
+  - first:
+      213: 5359320220968005320
+    second: GathererExteriorPack_11
+  - first:
+      213: -8286966230458585622
+    second: GathererExteriorPack_12
+  - first:
+      213: -2170196488667097872
+    second: GathererExteriorPack_13
+  - first:
+      213: 968368026637038019
+    second: GathererExteriorPack_14
+  - first:
+      213: -7164876059816140579
+    second: GathererExteriorPack_15
+  - first:
+      213: -8328235746709927904
+    second: GathererExteriorPack_16
+  - first:
+      213: -5244773331198951523
+    second: GathererExteriorPack_17
+  - first:
+      213: 310253255399121555
+    second: GathererExteriorPack_18
+  - first:
+      213: 8688158768976322631
+    second: GathererExteriorPack_19
+  - first:
+      213: 7676972791841258649
+    second: GathererExteriorPack_20
+  - first:
+      213: 7585909215291686759
+    second: GathererExteriorPack_21
+  - first:
+      213: -3626930938621651743
+    second: GathererExteriorPack_22
+  - first:
+      213: -5778807000789913932
+    second: GathererExteriorPack_23
+  - first:
+      213: -4290781588916744764
+    second: GathererExteriorPack_24
+  - first:
+      213: 498098895339935445
+    second: GathererExteriorPack_25
+  - first:
+      213: -5070281066900423817
+    second: GathererExteriorPack_26
+  - first:
+      213: -8723378172678628306
+    second: GathererExteriorPack_27
+  - first:
+      213: 5119985772971201349
+    second: GathererExteriorPack_28
+  - first:
+      213: 8089225999448969336
+    second: GathererExteriorPack_29
+  - first:
+      213: 8291541786174121215
+    second: GathererExteriorPack_30
+  - first:
+      213: 8698275777439901840
+    second: GathererExteriorPack_31
+  - first:
+      213: -738296771751962005
+    second: GathererExteriorPack_32
+  - first:
+      213: 256161502803058700
+    second: GathererExteriorPack_33
+  - first:
+      213: -4576662236271722376
+    second: GathererExteriorPack_34
+  - first:
+      213: -7501325728581653431
+    second: GathererExteriorPack_35
+  - first:
+      213: -9031546957211838326
+    second: GathererExteriorPack_36
+  - first:
+      213: -8699617473025133389
+    second: GathererExteriorPack_37
+  - first:
+      213: -4855292222388296546
+    second: GathererExteriorPack_38
+  - first:
+      213: 7515042816763537167
+    second: GathererExteriorPack_39
+  - first:
+      213: 5580327097761534820
+    second: GathererExteriorPack_40
+  - first:
+      213: -3694243145066431657
+    second: GathererExteriorPack_41
+  - first:
+      213: 6288913130810705398
+    second: GathererExteriorPack_42
+  - first:
+      213: 4679578394597722285
+    second: GathererExteriorPack_43
+  - first:
+      213: 82063716028973876
+    second: GathererExteriorPack_44
+  - first:
+      213: 5074016652203098354
+    second: GathererExteriorPack_45
+  - first:
+      213: -1721504668353108212
+    second: GathererExteriorPack_46
+  - first:
+      213: 1460363292527837531
+    second: GathererExteriorPack_47
+  - first:
+      213: 24007157048708514
+    second: GathererExteriorPack_48
+  - first:
+      213: 2398267898884231850
+    second: GathererExteriorPack_49
+  - first:
+      213: -2331204270456890560
+    second: GathererExteriorPack_50
+  - first:
+      213: -7333283359719602702
+    second: GathererExteriorPack_51
+  - first:
+      213: 9185783270390729796
+    second: GathererExteriorPack_52
+  - first:
+      213: -7785771009258201716
+    second: GathererExteriorPack_53
+  - first:
+      213: 1421630060448229201
+    second: GathererExteriorPack_54
+  - first:
+      213: 7560754892525765393
+    second: GathererExteriorPack_55
+  - first:
+      213: 1344172068526084676
+    second: GathererExteriorPack_56
+  - first:
+      213: 2576912325773355231
+    second: GathererExteriorPack_57
+  - first:
+      213: 5922661791311850724
+    second: GathererExteriorPack_58
+  - first:
+      213: 2467988789088843540
+    second: GathererExteriorPack_59
+  - first:
+      213: 2122925570652325737
+    second: GathererExteriorPack_60
+  - first:
+      213: 1470564690397764477
+    second: GathererExteriorPack_61
+  - first:
+      213: 1382132553656691224
+    second: GathererExteriorPack_62
+  - first:
+      213: -423888483061504161
+    second: GathererExteriorPack_63
+  - first:
+      213: -4897885041057230173
+    second: GathererExteriorPack_64
+  - first:
+      213: 703958485938928329
+    second: GathererExteriorPack_65
+  - first:
+      213: -8174581818144943670
+    second: GathererExteriorPack_66
+  - first:
+      213: 7530865074914064849
+    second: GathererExteriorPack_67
+  - first:
+      213: 4363580035901370175
+    second: GathererExteriorPack_68
+  - first:
+      213: -8598952837222603021
+    second: GathererExteriorPack_69
+  - first:
+      213: 294867129691886291
+    second: GathererExteriorPack_70
+  - first:
+      213: -7464744300860689874
+    second: GathererExteriorPack_71
+  - first:
+      213: -5687579078933903192
+    second: GathererExteriorPack_72
+  - first:
+      213: -3223000648246478768
+    second: GathererExteriorPack_73
+  - first:
+      213: 7441761245929797012
+    second: GathererExteriorPack_74
+  - first:
+      213: -163568780127183539
+    second: GathererExteriorPack_75
+  - first:
+      213: -3136282172632076781
+    second: GathererExteriorPack_76
+  - first:
+      213: -3091042442451480663
+    second: GathererExteriorPack_77
+  - first:
+      213: -6859175991849569526
+    second: GathererExteriorPack_78
+  - first:
+      213: 9161441444137782093
+    second: GathererExteriorPack_79
+  - first:
+      213: -2114754268583624087
+    second: GathererExteriorPack_80
+  - first:
+      213: -3651759597852639506
+    second: GathererExteriorPack_81
+  - first:
+      213: 6962911015261732418
+    second: GathererExteriorPack_82
+  - first:
+      213: -8708964169588178635
+    second: GathererExteriorPack_83
+  - first:
+      213: 388801656170799928
+    second: GathererExteriorPack_84
+  - first:
+      213: -6257112188667913129
+    second: GathererExteriorPack_85
+  - first:
+      213: -9054911995879959651
+    second: GathererExteriorPack_86
+  - first:
+      213: -5038879034820179667
+    second: GathererExteriorPack_87
+  - first:
+      213: -4626531120957135313
+    second: GathererExteriorPack_88
+  - first:
+      213: -8452729717270406138
+    second: GathererExteriorPack_89
+  - first:
+      213: -7759843040861962006
+    second: GathererExteriorPack_90
+  - first:
+      213: 8811207299478423678
+    second: GathererExteriorPack_91
+  - first:
+      213: 4129561736149585559
+    second: GathererExteriorPack_92
+  - first:
+      213: -5342230642933689665
+    second: GathererExteriorPack_93
+  - first:
+      213: 1766781945536925516
+    second: GathererExteriorPack_94
+  - first:
+      213: -246731234485002611
+    second: GathererExteriorPack_95
+  - first:
+      213: -2131216333472181067
+    second: GathererExteriorPack_96
+  - first:
+      213: -1652937130432524731
+    second: GathererExteriorPack_97
+  - first:
+      213: 8258169276186800415
+    second: GathererExteriorPack_98
+  - first:
+      213: -5197154687538259009
+    second: GathererExteriorPack_99
+  - first:
+      213: -8092770692144401454
+    second: GathererExteriorPack_100
+  - first:
+      213: 5424392198492266804
+    second: GathererExteriorPack_101
+  - first:
+      213: 1517377051481016174
+    second: GathererExteriorPack_102
+  - first:
+      213: -4331926855060754421
+    second: GathererExteriorPack_103
+  - first:
+      213: -8781873892040563356
+    second: GathererExteriorPack_104
+  - first:
+      213: 6422116737392987553
+    second: GathererExteriorPack_105
+  - first:
+      213: -1708106392280539287
+    second: GathererExteriorPack_106
+  - first:
+      213: 81176967720210407
+    second: GathererExteriorPack_107
+  - first:
+      213: -7071007374533165534
+    second: GathererExteriorPack_108
+  - first:
+      213: -7011939173014882147
+    second: GathererExteriorPack_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GathererExteriorPack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee2bad9d14e9dd60800000000000000
+      internalID: 7915608635930783463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 211
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a86dfe9f3c5bbc0800000000000000
+      internalID: -3767890034987464108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f8736121cbff780800000000000000
+      internalID: -8646985973659889851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3450743f8cbd64a40800000000000000
+      internalID: 5352206863297873219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 226
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962a851634e9c25d0800000000000000
+      internalID: -3085917632422436247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 243
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36aae13922e26070800000000000000
+      internalID: 8098283746524571194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 243
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb6e46055633d060800000000000000
+      internalID: 6976979986532953064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 243
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4433bbfca757c4a50800000000000000
+      internalID: 6506704731975136068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 243
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a51059a7de2450a0800000000000000
+      internalID: -6893833625803942490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 207
+        width: 79
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1195cd35e1b790400800000000000000
+      internalID: 290899021128292625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c211c5e101683d0800000000000000
+      internalID: -3204856362247836531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 210
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cead589851206a40800000000000000
+      internalID: 5359320220968005320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 241
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedabdf9e18cefc80800000000000000
+      internalID: -8286966230458585622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 211
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f49230bac9e1e1e0800000000000000
+      internalID: -2170196488667097872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 211
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1fb8fe695507d00800000000000000
+      internalID: 968368026637038019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd065fa4f2f319c90800000000000000
+      internalID: -7164876059816140579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 209
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02805a796b92c6c80800000000000000
+      internalID: -8328235746709927904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 209
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fb17a7172d637b0800000000000000
+      internalID: -5244773331198951523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 226
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392297621bd3e4400800000000000000
+      internalID: 310253255399121555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 228
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74067095e5a829870800000000000000
+      internalID: 8688158768976322631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 228
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c790074161a8a60800000000000000
+      internalID: 7676972791841258649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fb2db4d30964960800000000000000
+      internalID: 7585909215291686759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 210
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e41592178d8aadc0800000000000000
+      internalID: -3626930938621651743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 212
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be606476ad8dcfa0800000000000000
+      internalID: -5778807000789913932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_24
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 215
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdc4dfd0e41474c0800000000000000
+      internalID: -4290781588916744764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 210
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d650c76e4a99e600800000000000000
+      internalID: 498098895339935445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 211
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bf200bb3eb2a9b0800000000000000
+      internalID: -5070281066900423817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 211
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c181835c550f680800000000000000
+      internalID: -8723378172678628306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 209
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54390050fe7dd0740800000000000000
+      internalID: 5119985772971201349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870920d1034b24070800000000000000
+      internalID: 8089225999448969336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 193
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff46735f259711370800000000000000
+      internalID: 8291541786174121215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098a0b0fbbb76b870800000000000000
+      internalID: 8698275777439901840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a18ec6ffa01c5f0800000000000000
+      internalID: -738296771751962005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e4b397811e8300800000000000000
+      internalID: 256161502803058700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870441eb1fd6c70c0800000000000000
+      internalID: -4576662236271722376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_35
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 194
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c646b5effe5e790800000000000000
+      internalID: -7501325728581653431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 192
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d023c4ef79a280800000000000000
+      internalID: -9031546957211838326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_37
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b43e863000c44780800000000000000
+      internalID: -8699617473025133389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_38
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 161
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9424dbb2798e9cb0800000000000000
+      internalID: -4855292222388296546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_39
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 178
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07aa0d10abca4860800000000000000
+      internalID: 7515042816763537167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 180
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4631098fded417d40800000000000000
+      internalID: 5580327097761534820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bb468be696bbcc0800000000000000
+      internalID: -3694243145066431657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f503412c25b64750800000000000000
+      internalID: 6288913130810705398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da80794a1c331f040800000000000000
+      internalID: 4679578394597722285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 160
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4330bd2d38c832100800000000000000
+      internalID: 82063716028973876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_45
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f08bfa03478a6640800000000000000
+      internalID: 5074016652203098354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07e2a300acfb18e0800000000000000
+      internalID: -1721504668353108212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51442e5da0444410800000000000000
+      internalID: 1460363292527837531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad84f3d16a455000800000000000000
+      internalID: 24007157048708514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2973d82fb584120800000000000000
+      internalID: 2398267898884231850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 161
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b1b883116e5afd0800000000000000
+      internalID: -2331204270456890560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f541a243a1fa3a90800000000000000
+      internalID: -7333283359719602702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c8d5f47357a7f70800000000000000
+      internalID: 9185783270390729796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d51a2948263f390800000000000000
+      internalID: -7785771009258201716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157a8030205aab310800000000000000
+      internalID: 1421630060448229201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_55
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138bc224823de860800000000000000
+      internalID: 7560754892525765393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_56
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442df75ef5577a210800000000000000
+      internalID: 1344172068526084676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_57
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 146
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8eb037b1803c320800000000000000
+      internalID: 2576912325773355231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecebe30585813250800000000000000
+      internalID: 5922661791311850724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_59
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417794b4abe004220800000000000000
+      internalID: 2467988789088843540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967435b0f85267d10800000000000000
+      internalID: 2122925570652325737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b14666bce786410800000000000000
+      internalID: 1470564690397764477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ae5351c325e2310800000000000000
+      internalID: 1382132553656691224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f576db6abab0e1af0800000000000000
+      internalID: -423888483061504161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_64
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a295195187370cb0800000000000000
+      internalID: -4897885041057230173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caf2036386f4c900800000000000000
+      internalID: 703958485938928329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_66
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19a1ea52d0e8e80800000000000000
+      internalID: -8174581818144943670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9f5a9a2e1038860800000000000000
+      internalID: 7530865074914064849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f23e46cec8e8c30800000000000000
+      internalID: 4363580035901370175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6620924f16aa880800000000000000
+      internalID: -8598952837222603021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_70
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 103
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d259399714971400800000000000000
+      internalID: 294867129691886291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_71
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 97
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22b318bb96e76890800000000000000
+      internalID: -7464744300860689874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 97
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8833836f8a111b0800000000000000
+      internalID: -5687579078933903192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0583a629cf99543d0800000000000000
+      internalID: -3223000648246478768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 113
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495f9eecc62764760800000000000000
+      internalID: 7441761245929797012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_75
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ddc24af03eabdf0800000000000000
+      internalID: -163568780127183539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_76
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eefd01bffa974d0800000000000000
+      internalID: -3136282172632076781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 115
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af060096496a15d0800000000000000
+      internalID: -3091042442451480663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 114
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a033be1e6cf4fc0a0800000000000000
+      internalID: -6859175991849569526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_79
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 114
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bcf5c347af32f70800000000000000
+      internalID: 9161441444137782093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_80
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 111
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96205d97232e6a2e0800000000000000
+      internalID: -2114754268583624087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_81
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 112
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeebedc5ef7525dc0800000000000000
+      internalID: -3651759597852639506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_82
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 64
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e74536daa31a060800000000000000
+      internalID: 6962911015261732418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_83
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 95
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5318716da3b832780800000000000000
+      internalID: -8708964169588178635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_84
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 82
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833e42cdb0d456500800000000000000
+      internalID: 388801656170799928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_85
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c9ea2bd954a29a0800000000000000
+      internalID: -6257112188667913129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_86
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 81
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d625c38d765280800000000000000
+      internalID: -9054911995879959651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 81
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d294167073e421ab0800000000000000
+      internalID: -5038879034820179667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 95
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f266f0935724bcfb0800000000000000
+      internalID: -4626531120957135313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_89
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 130
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c95bb4b1fd1ba80800000000000000
+      internalID: -8452729717270406138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_90
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 79
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0c2a42edf7f4490800000000000000
+      internalID: -7759843040861962006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_91
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 80
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e788db7ea52b74a70800000000000000
+      internalID: 8811207299478423678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 51
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ecd3905862f4930800000000000000
+      internalID: 4129561736149585559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_93
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 52
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb21bbbd8859cd5b0800000000000000
+      internalID: -5342230642933689665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_94
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4d4391ded48810800000000000000
+      internalID: 1766781945536925516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_95
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 52
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e178ddf3f639cf0800000000000000
+      internalID: -246731234485002611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_96
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b451ef49066c62e0800000000000000
+      internalID: -2131216333472181067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e048000769f09e0800000000000000
+      internalID: -1652937130432524731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_98
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11b82af339ea9270800000000000000
+      internalID: 8258169276186800415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_99
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 48
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb968ee85fffd7b0800000000000000
+      internalID: -5197154687538259009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d37a0ecee3b0bf80800000000000000
+      internalID: -8092770692144401454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_101
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 51
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431288107ff474b40800000000000000
+      internalID: 5424392198492266804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_102
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 33
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e670bdf836ece0510800000000000000
+      internalID: 1517377051481016174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_103
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 17
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00f0231a77e1e3c0800000000000000
+      internalID: -4331926855060754421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_104
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 17
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46525aa3934802680800000000000000
+      internalID: -8781873892040563356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_105
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 17
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad46669521ff1950800000000000000
+      internalID: 6422116737392987553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_106
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 36
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f5b8149469b48e0800000000000000
+      internalID: -1708106392280539287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_107
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 33
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef08e4a506602100800000000000000
+      internalID: 81176967720210407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_108
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 18
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e78c4b14cbedd90800000000000000
+      internalID: -7071007374533165534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_109
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 3
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d983dc5197690be90800000000000000
+      internalID: -7011939173014882147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

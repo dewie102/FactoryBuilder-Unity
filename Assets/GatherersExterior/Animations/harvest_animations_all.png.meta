@@ -1,0 +1,1630 @@
+fileFormatVersion: 2
+guid: 5a7fbb1abe143fd928a805ded81fe2c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4342801700850618563
+    second: harvest_animations_all_0
+  - first:
+      213: 2472410205522129508
+    second: harvest_animations_all_1
+  - first:
+      213: 5881305473823820758
+    second: harvest_animations_all_2
+  - first:
+      213: 3065972615689826713
+    second: harvest_animations_all_3
+  - first:
+      213: -1803629736233334099
+    second: harvest_animations_all_4
+  - first:
+      213: 3146284182781749188
+    second: harvest_animations_all_5
+  - first:
+      213: 3119516335729301327
+    second: harvest_animations_all_6
+  - first:
+      213: -7260304600252571003
+    second: harvest_animations_all_7
+  - first:
+      213: -2727674257347303428
+    second: harvest_animations_all_8
+  - first:
+      213: 8049102583674117535
+    second: harvest_animations_all_9
+  - first:
+      213: 7480441810114844454
+    second: harvest_animations_all_10
+  - first:
+      213: -5065686903209802587
+    second: harvest_animations_all_11
+  - first:
+      213: 9172606066969603256
+    second: harvest_animations_all_12
+  - first:
+      213: -2854412532274094031
+    second: harvest_animations_all_13
+  - first:
+      213: 8654260085730284851
+    second: harvest_animations_all_14
+  - first:
+      213: 7092977367046891477
+    second: harvest_animations_all_15
+  - first:
+      213: 8478979135822000552
+    second: harvest_animations_all_16
+  - first:
+      213: 1357902282092240895
+    second: harvest_animations_all_17
+  - first:
+      213: -2499855605093046227
+    second: harvest_animations_all_18
+  - first:
+      213: 7369351798195553534
+    second: harvest_animations_all_19
+  - first:
+      213: 6927949457305826223
+    second: harvest_animations_all_20
+  - first:
+      213: 4115062558915245385
+    second: harvest_animations_all_21
+  - first:
+      213: 4822624313031459844
+    second: harvest_animations_all_22
+  - first:
+      213: -7484705963093030465
+    second: harvest_animations_all_23
+  - first:
+      213: 5302528342455893671
+    second: harvest_animations_all_24
+  - first:
+      213: -5800293373425964159
+    second: harvest_animations_all_25
+  - first:
+      213: -6383509439442032178
+    second: harvest_animations_all_26
+  - first:
+      213: 4174950615123810360
+    second: harvest_animations_all_27
+  - first:
+      213: 3704563865203152782
+    second: harvest_animations_all_28
+  - first:
+      213: -5257880355655727369
+    second: harvest_animations_all_29
+  - first:
+      213: 5137503541658128506
+    second: harvest_animations_all_30
+  - first:
+      213: -7120112354376700638
+    second: harvest_animations_all_31
+  - first:
+      213: 1178277900280327153
+    second: harvest_animations_all_32
+  - first:
+      213: -4321043969972804564
+    second: harvest_animations_all_33
+  - first:
+      213: 5759639651601857358
+    second: harvest_animations_all_34
+  - first:
+      213: 4568050959267073637
+    second: harvest_animations_all_35
+  - first:
+      213: 1170749033698609656
+    second: harvest_animations_all_36
+  - first:
+      213: 2848484536369650946
+    second: harvest_animations_all_37
+  - first:
+      213: 6076277557269993819
+    second: harvest_animations_all_38
+  - first:
+      213: -1170415570441251544
+    second: harvest_animations_all_39
+  - first:
+      213: 7169886635383454009
+    second: harvest_animations_all_40
+  - first:
+      213: 1603043444447773296
+    second: harvest_animations_all_41
+  - first:
+      213: -8000973398761647078
+    second: harvest_animations_all_42
+  - first:
+      213: -5544637520424788856
+    second: harvest_animations_all_43
+  - first:
+      213: 2449725238011817356
+    second: harvest_animations_all_44
+  - first:
+      213: 8241516392547821487
+    second: harvest_animations_all_45
+  - first:
+      213: -588689389354373117
+    second: harvest_animations_all_46
+  - first:
+      213: -7856869778125010780
+    second: harvest_animations_all_47
+  - first:
+      213: -3620730723836860073
+    second: harvest_animations_all_48
+  - first:
+      213: -8829596139096581036
+    second: harvest_animations_all_49
+  - first:
+      213: -3210612000937941719
+    second: harvest_animations_all_50
+  - first:
+      213: -2244207880716406899
+    second: harvest_animations_all_51
+  - first:
+      213: -2832199519341779356
+    second: harvest_animations_all_52
+  - first:
+      213: -3385675256756100962
+    second: harvest_animations_all_53
+  - first:
+      213: 5115357265887032754
+    second: harvest_animations_all_54
+  - first:
+      213: -2189084517768741136
+    second: harvest_animations_all_55
+  - first:
+      213: 4368672133721740604
+    second: harvest_animations_all_56
+  - first:
+      213: -1438385027245771506
+    second: harvest_animations_all_57
+  - first:
+      213: -1521521891363652010
+    second: harvest_animations_all_58
+  - first:
+      213: -4691166349785263163
+    second: harvest_animations_all_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: harvest_animations_all_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0d925432bb44c30800000000000000
+      internalID: 4342801700850618563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46272378bf3cf4220800000000000000
+      internalID: 2472410205522129508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db44defa289e9150800000000000000
+      internalID: 5881305473823820758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991744989d58c8a20800000000000000
+      internalID: 3065972615689826713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 78
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa0b799f4838f6e0800000000000000
+      internalID: -1803629736233334099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7e2256bc8d9ab20800000000000000
+      internalID: 3146284182781749188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f475c26549fba4b20800000000000000
+      internalID: 3119516335729301327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582afccce673e3b90800000000000000
+      internalID: -7260304600252571003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf726dbf6ba552ad0800000000000000
+      internalID: -2727674257347303428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 50
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d1394672824bf60800000000000000
+      internalID: 8049102583674117535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62710e6713edfc760800000000000000
+      internalID: 7480441810114844454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c4d6c99013b9b0800000000000000
+      internalID: -5065686903209802587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 30
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bce05e8e94ab4f70800000000000000
+      internalID: 9172606066969603256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130216bdce61368d0800000000000000
+      internalID: -2854412532274094031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3359bcb12bb1a1870800000000000000
+      internalID: 8654260085730284851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 16
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d727bac5515f6260800000000000000
+      internalID: 7092977367046891477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a17e98b9926ba570800000000000000
+      internalID: 8478979135822000552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffdccb5eec38d210800000000000000
+      internalID: 1357902282092240895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28e8ac629abe4dd0800000000000000
+      internalID: -2499855605093046227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4055c7a62354660800000000000000
+      internalID: 7369351798195553534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3f2985355052060800000000000000
+      internalID: 6927949457305826223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94537a44893ab1930800000000000000
+      internalID: 4115062558915245385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4040767e2476de240800000000000000
+      internalID: 4822624313031459844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9879d059bf02890800000000000000
+      internalID: -7484705963093030465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae3687fe6d569940800000000000000
+      internalID: 5302528342455893671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ba4eb78e7318fa0800000000000000
+      internalID: -5800293373425964159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec964b17cf73967a0800000000000000
+      internalID: -6383509439442032178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838d041f67760f930800000000000000
+      internalID: 4174950615123810360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e879e213531496330800000000000000
+      internalID: 3704563865203152782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c2a98ca14807b0800000000000000
+      internalID: -5257880355655727369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_30
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7018d060441c4740800000000000000
+      internalID: 5137503541658128506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da184a987403d90800000000000000
+      internalID: -7120112354376700638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbe6ece1851a5010800000000000000
+      internalID: 1178277900280327153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c246de637619804c0800000000000000
+      internalID: -4321043969972804564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bbbfb4fb95eef40800000000000000
+      internalID: 5759639651601857358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_35
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e0ff6152af46f30800000000000000
+      internalID: 4568050959267073637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_36
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ccb21b065f3010800000000000000
+      internalID: 1170749033698609656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d918a0899d78720800000000000000
+      internalID: 2848484536369650946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5991cdae36435450800000000000000
+      internalID: 6076277557269993819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82553446d39d1cfe0800000000000000
+      internalID: -1170415570441251544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939f9dd38ed808360800000000000000
+      internalID: 7169886635383454009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07204d9f4872f3610800000000000000
+      internalID: 1603043444447773296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a145675b515d6f090800000000000000
+      internalID: -8000973398761647078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c17ca4d8d7d03b0800000000000000
+      internalID: -5544637520424788856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8de001ff1c2ff120800000000000000
+      internalID: 2449725238011817356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 9
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa72f5c5e7fbf5270800000000000000
+      internalID: 8241516392547821487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_46
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300bd709e1e84d7f0800000000000000
+      internalID: -588689389354373117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a84b54709ac6f290800000000000000
+      internalID: -7856869778125010780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7596c52179490cdc0800000000000000
+      internalID: -3620730723836860073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_49
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cdcfab719f67580800000000000000
+      internalID: -8829596139096581036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_50
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925ec7c456d9173d0800000000000000
+      internalID: -3210612000937941719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f24c3a2d8fad0e0800000000000000
+      internalID: -2244207880716406899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466e994fa8102b8d0800000000000000
+      internalID: -2832199519341779356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_53
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 5
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e902934ca4aa301d0800000000000000
+      internalID: -3385675256756100962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_54
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5f86cb4566df640800000000000000
+      internalID: 5115357265887032754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_55
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe3617ba3fce91e0800000000000000
+      internalID: -2189084517768741136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35d1aec824a0ac30800000000000000
+      internalID: 4368672133721740604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0576c84074d90ce0800000000000000
+      internalID: -1438385027245771506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ef943b6e772eae0800000000000000
+      internalID: -1521521891363652010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harvest_animations_all_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c398ca4f01a5eeb0800000000000000
+      internalID: -4691166349785263163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
