@@ -3,15 +3,20 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
 public class ClickHandler : MonoBehaviour
 {
     InputAction leftMouseClick;
+    Tilemap myTileMap;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         leftMouseClick = InputSystem.actions.FindAction("MouseClick");
+        myTileMap = FindFirstObjectByType<Tilemap>();
+        myTileMap = GameObject.Find("Ground").GetComponent<Tilemap>();
+        print(myTileMap.name);
     }
 
     // Update is called once per frame
@@ -22,15 +27,11 @@ public class ClickHandler : MonoBehaviour
             Vector2 mousePos = Mouse.current.position.ReadValue();
 
             Vector3 origin = Camera.main.ScreenToWorldPoint(mousePos);
-            Debug.Log($"Mouse Position: {mousePos} | Origin: {origin}");
+            origin.z = myTileMap.transform.position.z;
 
-            RaycastHit2D hit;
-            hit = Physics2D.Raycast(origin, Vector3.forward, 1000);
-            if (hit.collider != null)
-            {
-                print($"Found an Object: {hit.collider.GameObject().name} at distance: {hit.distance}");
-                print($"Hit object at position: {hit.collider.gameObject.transform.position}");
-            }
+            Vector3Int originInt = new Vector3Int((int)origin.x, (int)origin.y, (int)origin.z);
+            TileBase myTile = myTileMap.GetTile(originInt);
+            print($"Tile: {myTile} | Position: {originInt}");
         }
     }
 
