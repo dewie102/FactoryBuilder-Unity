@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sarcophagus_0: 8912410987799251517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

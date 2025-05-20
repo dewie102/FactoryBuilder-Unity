@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      watering_can_gold_0: -8295284394704369747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

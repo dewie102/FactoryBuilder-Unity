@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pickaxe_copper_0: 269509116257797925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -597,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor_grass_0: -5426176470029142786
+      decor_grass_1: -4243682679772970745
+      decor_grass_10: -2262094259663267596
+      decor_grass_11: 1512047297365782320
+      decor_grass_12: -5262361787254237584
+      decor_grass_13: -4357033261135377691
+      decor_grass_14: 1909903880356353075
+      decor_grass_15: 1791712785436992540
+      decor_grass_16: -8202682838552724273
+      decor_grass_17: -8317963387658910048
+      decor_grass_18: 1052267703719521818
+      decor_grass_2: -6739712970786757527
+      decor_grass_3: -3493559929304411429
+      decor_grass_4: -1750391901128700273
+      decor_grass_5: 6329908361962269339
+      decor_grass_6: 6717909643702114886
+      decor_grass_7: -4676378227800196767
+      decor_grass_8: 1254256288984454291
+      decor_grass_9: -5743155803378634281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

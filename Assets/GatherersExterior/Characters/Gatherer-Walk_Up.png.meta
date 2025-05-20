@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gatherer-Walk_Up_0: 2447659454162426911
+      Gatherer-Walk_Up_1: -8519731806911294526
+      Gatherer-Walk_Up_2: 1477541429692452302
+      Gatherer-Walk_Up_3: -8963347747455686891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

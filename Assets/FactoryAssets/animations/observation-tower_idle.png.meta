@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      observation-tower_idle_0: -3140936813694921774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

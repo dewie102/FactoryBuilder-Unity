@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      desert_succulent2_0: 2585861054134425602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

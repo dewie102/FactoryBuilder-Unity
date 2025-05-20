@@ -1622,7 +1622,67 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      harvest_animations_all_0: 4342801700850618563
+      harvest_animations_all_1: 2472410205522129508
+      harvest_animations_all_10: 7480441810114844454
+      harvest_animations_all_11: -5065686903209802587
+      harvest_animations_all_12: 9172606066969603256
+      harvest_animations_all_13: -2854412532274094031
+      harvest_animations_all_14: 8654260085730284851
+      harvest_animations_all_15: 7092977367046891477
+      harvest_animations_all_16: 8478979135822000552
+      harvest_animations_all_17: 1357902282092240895
+      harvest_animations_all_18: -2499855605093046227
+      harvest_animations_all_19: 7369351798195553534
+      harvest_animations_all_2: 5881305473823820758
+      harvest_animations_all_20: 6927949457305826223
+      harvest_animations_all_21: 4115062558915245385
+      harvest_animations_all_22: 4822624313031459844
+      harvest_animations_all_23: -7484705963093030465
+      harvest_animations_all_24: 5302528342455893671
+      harvest_animations_all_25: -5800293373425964159
+      harvest_animations_all_26: -6383509439442032178
+      harvest_animations_all_27: 4174950615123810360
+      harvest_animations_all_28: 3704563865203152782
+      harvest_animations_all_29: -5257880355655727369
+      harvest_animations_all_3: 3065972615689826713
+      harvest_animations_all_30: 5137503541658128506
+      harvest_animations_all_31: -7120112354376700638
+      harvest_animations_all_32: 1178277900280327153
+      harvest_animations_all_33: -4321043969972804564
+      harvest_animations_all_34: 5759639651601857358
+      harvest_animations_all_35: 4568050959267073637
+      harvest_animations_all_36: 1170749033698609656
+      harvest_animations_all_37: 2848484536369650946
+      harvest_animations_all_38: 6076277557269993819
+      harvest_animations_all_39: -1170415570441251544
+      harvest_animations_all_4: -1803629736233334099
+      harvest_animations_all_40: 7169886635383454009
+      harvest_animations_all_41: 1603043444447773296
+      harvest_animations_all_42: -8000973398761647078
+      harvest_animations_all_43: -5544637520424788856
+      harvest_animations_all_44: 2449725238011817356
+      harvest_animations_all_45: 8241516392547821487
+      harvest_animations_all_46: -588689389354373117
+      harvest_animations_all_47: -7856869778125010780
+      harvest_animations_all_48: -3620730723836860073
+      harvest_animations_all_49: -8829596139096581036
+      harvest_animations_all_5: 3146284182781749188
+      harvest_animations_all_50: -3210612000937941719
+      harvest_animations_all_51: -2244207880716406899
+      harvest_animations_all_52: -2832199519341779356
+      harvest_animations_all_53: -3385675256756100962
+      harvest_animations_all_54: 5115357265887032754
+      harvest_animations_all_55: -2189084517768741136
+      harvest_animations_all_56: 4368672133721740604
+      harvest_animations_all_57: -1438385027245771506
+      harvest_animations_all_58: -1521521891363652010
+      harvest_animations_all_59: -4691166349785263163
+      harvest_animations_all_6: 3119516335729301327
+      harvest_animations_all_7: -7260304600252571003
+      harvest_animations_all_8: -2727674257347303428
+      harvest_animations_all_9: 8049102583674117535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

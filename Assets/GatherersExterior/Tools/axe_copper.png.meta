@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      axe_copper_0: -8436242739668848523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gatherer-Swing_Down_0: 508738633344665760
+      Gatherer-Swing_Down_1: -6829527021267292967
+      Gatherer-Swing_Down_2: -5057539509293196598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

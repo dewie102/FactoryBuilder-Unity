@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tomestone_0: 8245410827719884904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

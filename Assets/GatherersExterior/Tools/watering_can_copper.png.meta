@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      watering_can_copper_0: 3427608072673138222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

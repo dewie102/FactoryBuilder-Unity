@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      powerplant-small_idle_0: -1414186976263868989
+      powerplant-small_idle_1: -6864007351571591693
+      powerplant-small_idle_2: 7901430011164573607
+      powerplant-small_idle_3: -3338412832973933284
+      powerplant-small_idle_4: 8456120381769469036
+      powerplant-small_idle_5: 8090504229160141529
+      powerplant-small_idle_6: -7774656735697016910
+      powerplant-small_idle_7: -8750369166170693853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree_berry_nobloom_0: -8459841806664780660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

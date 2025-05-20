@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree_drooping_sapling_0: 6443086888661456487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

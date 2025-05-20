@@ -15,7 +15,7 @@ public class ClickHandler : MonoBehaviour
     {
         leftMouseClick = InputSystem.actions.FindAction("MouseClick");
         myTileMap = FindFirstObjectByType<Tilemap>();
-        myTileMap = GameObject.Find("Ground").GetComponent<Tilemap>();
+        //myTileMap = GameObject.Find("Ground").GetComponent<Tilemap>();
         print(myTileMap.name);
     }
 
@@ -27,9 +27,8 @@ public class ClickHandler : MonoBehaviour
             Vector2 mousePos = Mouse.current.position.ReadValue();
 
             Vector3 origin = Camera.main.ScreenToWorldPoint(mousePos);
-            origin.z = myTileMap.transform.position.z;
 
-            Vector3Int originInt = new Vector3Int((int)origin.x, (int)origin.y, (int)origin.z);
+            Vector3Int originInt = myTileMap.WorldToCell(origin);
             TileBase myTile = myTileMap.GetTile(originInt);
             print($"Tile: {myTile} | Position: {originInt}");
         }

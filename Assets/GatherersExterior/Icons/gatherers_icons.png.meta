@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gatherers_icons_0: -3973364381399808627
+      gatherers_icons_1: 8147089477928061977
+      gatherers_icons_2: -3683304424889409667
+      gatherers_icons_3: -4093148170489913754
+      gatherers_icons_4: -7008095002154084030
+      gatherers_icons_5: 7519786074582376256
+      gatherers_icons_6: -5192158468091376922
+      gatherers_icons_7: 9053051009024101339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

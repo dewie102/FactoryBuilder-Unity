@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      green-factory_idle_0: -2271188432429241364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

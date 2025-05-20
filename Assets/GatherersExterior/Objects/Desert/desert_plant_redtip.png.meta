@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      desert_plant_redtip_0: -3585693034551229609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

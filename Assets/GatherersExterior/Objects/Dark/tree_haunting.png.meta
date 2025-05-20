@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree_haunting_0: -3541757411376045120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

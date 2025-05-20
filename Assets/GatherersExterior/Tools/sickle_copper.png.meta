@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sickle_copper_0: -7144219048398405194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

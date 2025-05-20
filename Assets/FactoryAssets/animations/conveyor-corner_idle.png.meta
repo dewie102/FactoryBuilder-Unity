@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      conveyor-corner_idle_0: 5435081851594058285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

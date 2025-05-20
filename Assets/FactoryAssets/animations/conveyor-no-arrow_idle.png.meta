@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      conveyor-no-arrow_idle_0: -3839015144793119982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

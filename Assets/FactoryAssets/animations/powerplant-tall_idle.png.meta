@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      powerplant-tall_idle_0: 631755852636160805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

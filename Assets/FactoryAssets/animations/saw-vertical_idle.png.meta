@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      saw-vertical_idle_0: 226616305060550389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

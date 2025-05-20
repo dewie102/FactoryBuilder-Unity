@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileset_floating_bridge_0: 626585348104925241
+      tileset_floating_bridge_1: 4305936156774950956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

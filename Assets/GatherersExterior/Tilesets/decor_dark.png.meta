@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor_dark_0: 1844500432744822780
+      decor_dark_1: 852357097754071366
+      decor_dark_2: 2320837571551118408
+      decor_dark_3: 1284953248328912597
+      decor_dark_4: 7532222825877625287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
