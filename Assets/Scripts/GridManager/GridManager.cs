@@ -25,7 +25,9 @@ public class GridManager : MonoBehaviour
 
     public Vector3 CellToWorld(Vector3Int cellPos)
     {
-        return tilemaps[0].CellToWorld(cellPos);
+        Vector3 worldPos = tilemaps[0].CellToWorld(cellPos);
+        worldPos += tilemaps[0].cellSize / 2f;
+        return worldPos;
     }
 
     public bool IsCellValid(Vector3Int cellPos)

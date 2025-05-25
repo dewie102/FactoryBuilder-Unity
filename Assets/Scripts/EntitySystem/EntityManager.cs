@@ -17,10 +17,12 @@ public class EntityManager : MonoBehaviour
         _entities = new();
     }
 
-    public bool PlaceEntity(Vector3Int position, Entity entity)
+    public bool PlaceEntity(Vector3Int position, EntityData entityData)
     {
         if(HasEntityAt(position))
             return false;
+
+        Entity entity = new(entityData);
 
         _entities.Add(position, entity);
         EntityPlaced?.Invoke(position, entity); // Notify Listeners

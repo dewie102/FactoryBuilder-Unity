@@ -11,6 +11,6 @@ public class BuildManager : MonoBehaviour
         Vector3Int cell = GridManager.Instance.WorldToCell(worldPos);
         if (EntityManager.Instance.HasEntityAt(cell)) return;
 
-        EntityManager.Instance.PlaceEntity(cell, buildingPrefab);
+        EntityManager.Instance.PlaceEntity(cell, selectedEntity);
     }
 }
