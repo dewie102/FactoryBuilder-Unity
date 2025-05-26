@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3572336544906076924}
   - component: {fileID: 5083842388495431370}
   m_Layer: 0
-  m_Name: Conveyor
+  m_Name: ResourceNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1188015419, guid: 9e7c5aa5fb785098bb2c1a24057a5fe1, type: 3}
+  m_Sprite: {fileID: 105691145, guid: 9e7c5aa5fb785098bb2c1a24057a5fe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

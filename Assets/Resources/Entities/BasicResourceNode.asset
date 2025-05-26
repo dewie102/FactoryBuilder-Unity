@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 896d6f95883d9cf4a96861b157c74240, type: 3}
+  m_Name: BasicResourceNode
+  m_EditorClassIdentifier: 
+  id: basic_resource_node
+  displayName: Resource Node
+  icon: {fileID: -1188015419, guid: 9e7c5aa5fb785098bb2c1a24057a5fe1, type: 3}
+  category: 2
+  type: 2
+  prefab: {fileID: 558358248277327247, guid: 231127bd93ad1e84880111de2b2714e1, type: 3}
+  size: {x: 1, y: 1}
+  cost: 0
+  buildTime: 0
+  isPassThrough: 0
+  requiresPower: 0

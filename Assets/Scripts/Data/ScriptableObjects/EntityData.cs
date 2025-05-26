@@ -17,6 +17,13 @@ namespace Assets.Scripts.EntitySystem
         Other
     }
 
+    public enum EntityType
+    {
+        Conveyor,
+        Machine,
+        ResourceNode
+    }
+
     [CreateAssetMenu(fileName = "NewEntityData", menuName = "FactoryGame/Entity Data")]
     public class EntityData: ScriptableObject
     {
@@ -27,6 +34,7 @@ namespace Assets.Scripts.EntitySystem
 
         [Header("Classification")]
         public EntityCategory category; // Optoinal enum to group types
+        public EntityType type; // For logic and factory use
 
         [Header("Placement Info")]
         public GameObject prefab; // Visual prefab to spawn

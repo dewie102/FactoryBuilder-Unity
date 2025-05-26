@@ -22,7 +22,7 @@ public class EntityManager : MonoBehaviour
         if(HasEntityAt(position))
             return false;
 
-        Entity entity = new(entityData);
+        Entity entity = EntityFactory.CreateEntity(entityData);
 
         _entities.Add(position, entity);
         EntityPlaced?.Invoke(position, entity); // Notify Listeners
@@ -42,5 +42,14 @@ public class EntityManager : MonoBehaviour
     public bool HasEntityAt(Vector3Int position)
     {
         return _entities.ContainsKey(position);
+    }
+
+    public void TickEntities()
+    {
+        Debug.Log($"EntityManager::Ticking All Entities: {_entities.Count}");
+        foreach(var entity in _entities.Values)
+        {
+            entity.OnTick();
+        }
     }
 }
