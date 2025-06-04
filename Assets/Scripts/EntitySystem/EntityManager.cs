@@ -36,7 +36,11 @@ public class EntityManager : MonoBehaviour
 
     public Entity GetEntityAt(Vector3Int position)
     {
-        return _entities[position];
+        Entity entity = null;
+        _entities.TryGetValue(position, out entity);
+
+
+        return entity;
     }
 
     public bool HasEntityAt(Vector3Int position)
