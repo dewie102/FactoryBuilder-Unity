@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Assets.Scripts.Data.Entities;
 using Assets.Scripts.EntitySystem.Logistics;
 using Assets.Scripts.EntitySystem.Production;
 using Assets.Scripts.EntitySystem.Resources;

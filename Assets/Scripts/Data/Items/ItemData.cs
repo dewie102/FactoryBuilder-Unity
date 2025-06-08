@@ -1,29 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using UnityEngine;
 
-namespace Assets.Scripts.EntitySystem
+namespace Assets.Scripts.Data.Items
 {
-    public enum EntityCategory
-    {
-        Production,
-        Logistics,
-        Resource,
-        Utility,
-        Other
-    }
-
-    public enum EntityType
-    {
-        Conveyor,
-        Machine,
-        ResourceNode
-    }
-
     [CreateAssetMenu(fileName = "NewEntityData", menuName = "FactoryGame/Entity Data")]
     public class EntityData: ScriptableObject
     {
