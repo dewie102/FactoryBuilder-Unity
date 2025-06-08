@@ -1,4 +1,5 @@
 using System;
+using Assets.Scripts.Data.Items;
 using UnityEngine;
 
 public class Item : IEquatable<Item>
@@ -9,6 +10,15 @@ public class Item : IEquatable<Item>
     public int maxStackSize; // for inventory systems
     public ItemCategory category;
     public int value; // for economy systems later?
+
+    public Item(ItemData data)
+    {
+        ID = data.id;
+        DisplayName = data.displayName;
+        sprite = data.sprite;
+        maxStackSize = data.maxStackSize;
+        category = data.category;
+    }
 
     public bool Equals(Item other)
     {
