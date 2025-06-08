@@ -22,7 +22,7 @@ public class SimulationManager : MonoBehaviour
         }
     }
 
-    private void TickAllEntities()
+    public void TickAllEntities()
     {
         Debug.Log("SimulationManager Tick");
         EntityManager.Instance.TickEntities();
