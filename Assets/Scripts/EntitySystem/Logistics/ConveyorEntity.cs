@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿using Assets.Scripts.Data.Entities;
 using UnityEngine;
 
 namespace Assets.Scripts.EntitySystem.Logistics

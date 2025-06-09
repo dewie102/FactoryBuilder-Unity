@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.EntitySystem;
+using Assets.Scripts.Data.Entities;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EntityLibrary", menuName = "FactoryGame/EntityLibrary")]
