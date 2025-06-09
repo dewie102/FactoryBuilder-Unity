@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Assets.Scripts.EntitySystem.Interfaces
+﻿namespace Assets.Scripts.EntitySystem.Interfaces
 {
     public interface IItemConsumer
     {
-        //bool TryConsumeItem(Item item);
+        bool TryConsumeItem(Item item);
     }
 }
