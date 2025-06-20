@@ -1,8 +1,12 @@
-﻿namespace Assets.Scripts.EntitySystem.Interfaces
+﻿using System.Collections.Generic;
+
+namespace Assets.Scripts.EntitySystem.Interfaces
 {
     public interface IItemProducer
     {
+        IEnumerable<Direction> OutputDirections { get; }
         bool HasItem { get; }
-        Item ProduceItem();
+        void RemoveItem();
+        Item PeekItem();
     }
 }

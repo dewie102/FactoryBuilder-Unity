@@ -39,4 +39,6 @@ public class VisualManager : MonoBehaviour
         GameObject instance = Instantiate(prefab, worldPosition, Quaternion.identity);
         _spawnedVisuals[cellPosition] = instance;
     }
+
+    
 }

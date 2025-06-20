@@ -55,6 +55,7 @@ public class SimulationDebugger : MonoBehaviour
     public void SetSimulationMode(bool autoMode)
     {
         autoSimulate = autoMode;
+        SimulationManager.Instance.simulationActive = autoSimulate;
     }
 
     public void SetTickInterval(float newInterval)

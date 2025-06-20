@@ -364,7 +364,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -378,7 +378,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -465,10 +465,10 @@ TextureImporter:
       name: GathererExteriorPack_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 211
-        width: 49
-        height: 45
+        x: 16
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,9 +487,9 @@ TextureImporter:
       name: GathererExteriorPack_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 240
-        width: 13
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -509,9 +509,9 @@ TextureImporter:
       name: GathererExteriorPack_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 48
         y: 240
-        width: 13
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -531,10 +531,10 @@ TextureImporter:
       name: GathererExteriorPack_4
       rect:
         serializedVersion: 2
-        x: 97
-        y: 226
-        width: 13
-        height: 30
+        x: 64
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: GathererExteriorPack_5
       rect:
         serializedVersion: 2
-        x: 113
-        y: 243
-        width: 14
-        height: 12
+        x: 80
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: GathererExteriorPack_6
       rect:
         serializedVersion: 2
-        x: 129
-        y: 243
-        width: 14
-        height: 12
+        x: 96
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,10 +597,10 @@ TextureImporter:
       name: GathererExteriorPack_7
       rect:
         serializedVersion: 2
-        x: 145
-        y: 243
-        width: 14
-        height: 12
+        x: 112
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,10 +619,10 @@ TextureImporter:
       name: GathererExteriorPack_8
       rect:
         serializedVersion: 2
-        x: 161
-        y: 243
-        width: 14
-        height: 12
+        x: 128
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,10 +641,10 @@ TextureImporter:
       name: GathererExteriorPack_9
       rect:
         serializedVersion: 2
-        x: 162
-        y: 207
-        width: 79
-        height: 49
+        x: 144
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -663,10 +663,10 @@ TextureImporter:
       name: GathererExteriorPack_10
       rect:
         serializedVersion: 2
-        x: 255
-        y: 207
-        width: 50
-        height: 49
+        x: 160
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: GathererExteriorPack_11
       rect:
         serializedVersion: 2
-        x: 322
-        y: 210
-        width: 28
-        height: 44
+        x: 176
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,10 +707,10 @@ TextureImporter:
       name: GathererExteriorPack_12
       rect:
         serializedVersion: 2
-        x: 351
-        y: 241
-        width: 17
-        height: 15
+        x: 192
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,10 +729,10 @@ TextureImporter:
       name: GathererExteriorPack_13
       rect:
         serializedVersion: 2
-        x: 371
-        y: 211
-        width: 26
-        height: 36
+        x: 208
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +751,10 @@ TextureImporter:
       name: GathererExteriorPack_14
       rect:
         serializedVersion: 2
-        x: 403
-        y: 211
-        width: 25
-        height: 32
+        x: 224
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,10 +773,10 @@ TextureImporter:
       name: GathererExteriorPack_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 211
-        width: 33
-        height: 30
+        x: 256
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -795,10 +795,10 @@ TextureImporter:
       name: GathererExteriorPack_16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 209
+        x: 272
+        y: 240
         width: 16
-        height: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,10 +817,10 @@ TextureImporter:
       name: GathererExteriorPack_17
       rect:
         serializedVersion: 2
-        x: 80
-        y: 209
+        x: 288
+        y: 240
         width: 16
-        height: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -839,10 +839,10 @@ TextureImporter:
       name: GathererExteriorPack_18
       rect:
         serializedVersion: 2
-        x: 113
-        y: 226
-        width: 13
-        height: 12
+        x: 320
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +861,10 @@ TextureImporter:
       name: GathererExteriorPack_19
       rect:
         serializedVersion: 2
-        x: 130
-        y: 228
-        width: 22
-        height: 7
+        x: 336
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -883,10 +883,10 @@ TextureImporter:
       name: GathererExteriorPack_20
       rect:
         serializedVersion: 2
-        x: 149
-        y: 228
-        width: 11
-        height: 8
+        x: 352
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +905,10 @@ TextureImporter:
       name: GathererExteriorPack_21
       rect:
         serializedVersion: 2
-        x: 352
-        y: 224
-        width: 15
-        height: 13
+        x: 368
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,10 +927,10 @@ TextureImporter:
       name: GathererExteriorPack_22
       rect:
         serializedVersion: 2
-        x: 98
-        y: 210
-        width: 12
-        height: 11
+        x: 384
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,10 +949,10 @@ TextureImporter:
       name: GathererExteriorPack_23
       rect:
         serializedVersion: 2
-        x: 114
-        y: 212
-        width: 6
-        height: 7
+        x: 400
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,10 +971,10 @@ TextureImporter:
       name: GathererExteriorPack_24
       rect:
         serializedVersion: 2
-        x: 118
-        y: 215
-        width: 7
-        height: 6
+        x: 416
+        y: 240
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -993,10 +993,10 @@ TextureImporter:
       name: GathererExteriorPack_25
       rect:
         serializedVersion: 2
-        x: 119
-        y: 210
-        width: 7
-        height: 6
+        x: 0
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1015,10 +1015,10 @@ TextureImporter:
       name: GathererExteriorPack_26
       rect:
         serializedVersion: 2
-        x: 130
-        y: 211
-        width: 12
-        height: 11
+        x: 16
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: GathererExteriorPack_27
       rect:
         serializedVersion: 2
-        x: 146
-        y: 211
-        width: 12
-        height: 11
+        x: 32
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1059,10 +1059,10 @@ TextureImporter:
       name: GathererExteriorPack_28
       rect:
         serializedVersion: 2
-        x: 353
-        y: 209
-        width: 13
-        height: 11
+        x: 48
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1081,10 +1081,10 @@ TextureImporter:
       name: GathererExteriorPack_29
       rect:
         serializedVersion: 2
-        x: 33
-        y: 193
-        width: 15
-        height: 14
+        x: 64
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1103,10 +1103,10 @@ TextureImporter:
       name: GathererExteriorPack_30
       rect:
         serializedVersion: 2
-        x: 49
-        y: 193
-        width: 14
-        height: 14
+        x: 80
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1125,10 +1125,10 @@ TextureImporter:
       name: GathererExteriorPack_31
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 96
+        y: 224
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1147,8 +1147,8 @@ TextureImporter:
       name: GathererExteriorPack_32
       rect:
         serializedVersion: 2
-        x: 80
-        y: 193
+        x: 112
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1169,8 +1169,8 @@ TextureImporter:
       name: GathererExteriorPack_33
       rect:
         serializedVersion: 2
-        x: 96
-        y: 193
+        x: 128
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1191,8 +1191,8 @@ TextureImporter:
       name: GathererExteriorPack_34
       rect:
         serializedVersion: 2
-        x: 112
-        y: 193
+        x: 144
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -1213,10 +1213,10 @@ TextureImporter:
       name: GathererExteriorPack_35
       rect:
         serializedVersion: 2
-        x: 131
-        y: 194
-        width: 9
-        height: 11
+        x: 160
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,10 +1235,10 @@ TextureImporter:
       name: GathererExteriorPack_36
       rect:
         serializedVersion: 2
-        x: 145
-        y: 192
-        width: 14
-        height: 15
+        x: 192
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1257,10 +1257,10 @@ TextureImporter:
       name: GathererExteriorPack_37
       rect:
         serializedVersion: 2
-        x: 159
-        y: 191
-        width: 18
-        height: 18
+        x: 208
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1279,10 +1279,10 @@ TextureImporter:
       name: GathererExteriorPack_38
       rect:
         serializedVersion: 2
-        x: 319
-        y: 161
-        width: 50
-        height: 48
+        x: 224
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1301,10 +1301,10 @@ TextureImporter:
       name: GathererExteriorPack_39
       rect:
         serializedVersion: 2
-        x: 370
-        y: 178
-        width: 28
-        height: 31
+        x: 256
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: GathererExteriorPack_40
       rect:
         serializedVersion: 2
-        x: 67
-        y: 180
-        width: 10
-        height: 8
+        x: 272
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1345,10 +1345,10 @@ TextureImporter:
       name: GathererExteriorPack_41
       rect:
         serializedVersion: 2
-        x: 80
-        y: 177
-        width: 14
-        height: 14
+        x: 288
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1367,10 +1367,10 @@ TextureImporter:
       name: GathererExteriorPack_42
       rect:
         serializedVersion: 2
-        x: 96
-        y: 177
-        width: 14
-        height: 14
+        x: 320
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,10 +1389,10 @@ TextureImporter:
       name: GathererExteriorPack_43
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
-        width: 32
-        height: 32
+        x: 336
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1411,10 +1411,10 @@ TextureImporter:
       name: GathererExteriorPack_44
       rect:
         serializedVersion: 2
-        x: 143
-        y: 160
-        width: 34
-        height: 25
+        x: 352
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1433,10 +1433,10 @@ TextureImporter:
       name: GathererExteriorPack_45
       rect:
         serializedVersion: 2
-        x: 191
-        y: 143
-        width: 50
-        height: 50
+        x: 368
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1455,10 +1455,10 @@ TextureImporter:
       name: GathererExteriorPack_46
       rect:
         serializedVersion: 2
-        x: 255
-        y: 143
-        width: 50
-        height: 50
+        x: 384
+        y: 224
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1477,10 +1477,10 @@ TextureImporter:
       name: GathererExteriorPack_47
       rect:
         serializedVersion: 2
-        x: 32
-        y: 161
+        x: 400
+        y: 224
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1499,10 +1499,10 @@ TextureImporter:
       name: GathererExteriorPack_48
       rect:
         serializedVersion: 2
-        x: 48
-        y: 161
+        x: 416
+        y: 224
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1521,10 +1521,10 @@ TextureImporter:
       name: GathererExteriorPack_49
       rect:
         serializedVersion: 2
-        x: 64
-        y: 161
+        x: 0
+        y: 208
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1543,10 +1543,10 @@ TextureImporter:
       name: GathererExteriorPack_50
       rect:
         serializedVersion: 2
-        x: 80
-        y: 161
-        width: 17
-        height: 14
+        x: 16
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1565,10 +1565,10 @@ TextureImporter:
       name: GathererExteriorPack_51
       rect:
         serializedVersion: 2
-        x: 96
-        y: 161
-        width: 17
-        height: 14
+        x: 32
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1587,10 +1587,10 @@ TextureImporter:
       name: GathererExteriorPack_52
       rect:
         serializedVersion: 2
-        x: 32
-        y: 145
-        width: 17
-        height: 13
+        x: 48
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,10 +1609,10 @@ TextureImporter:
       name: GathererExteriorPack_53
       rect:
         serializedVersion: 2
-        x: 48
-        y: 145
-        width: 17
-        height: 13
+        x: 64
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1631,10 +1631,10 @@ TextureImporter:
       name: GathererExteriorPack_54
       rect:
         serializedVersion: 2
-        x: 64
-        y: 145
-        width: 17
-        height: 13
+        x: 80
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1653,10 +1653,10 @@ TextureImporter:
       name: GathererExteriorPack_55
       rect:
         serializedVersion: 2
-        x: 82
-        y: 146
-        width: 12
-        height: 10
+        x: 96
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1675,10 +1675,10 @@ TextureImporter:
       name: GathererExteriorPack_56
       rect:
         serializedVersion: 2
-        x: 98
-        y: 146
-        width: 12
-        height: 10
+        x: 112
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1697,10 +1697,10 @@ TextureImporter:
       name: GathererExteriorPack_57
       rect:
         serializedVersion: 2
-        x: 114
-        y: 146
-        width: 12
-        height: 10
+        x: 128
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1719,10 +1719,10 @@ TextureImporter:
       name: GathererExteriorPack_58
       rect:
         serializedVersion: 2
-        x: 129
-        y: 145
-        width: 14
-        height: 14
+        x: 144
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1741,10 +1741,10 @@ TextureImporter:
       name: GathererExteriorPack_59
       rect:
         serializedVersion: 2
-        x: 145
-        y: 145
-        width: 14
-        height: 14
+        x: 160
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1763,10 +1763,10 @@ TextureImporter:
       name: GathererExteriorPack_60
       rect:
         serializedVersion: 2
-        x: 161
-        y: 145
-        width: 14
-        height: 14
+        x: 192
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,9 +1785,9 @@ TextureImporter:
       name: GathererExteriorPack_61
       rect:
         serializedVersion: 2
-        x: 32
-        y: 129
-        width: 17
+        x: 208
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1807,9 +1807,9 @@ TextureImporter:
       name: GathererExteriorPack_62
       rect:
         serializedVersion: 2
-        x: 48
-        y: 129
-        width: 17
+        x: 224
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1829,9 +1829,9 @@ TextureImporter:
       name: GathererExteriorPack_63
       rect:
         serializedVersion: 2
-        x: 64
-        y: 129
-        width: 17
+        x: 256
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1851,10 +1851,10 @@ TextureImporter:
       name: GathererExteriorPack_64
       rect:
         serializedVersion: 2
-        x: 84
-        y: 132
-        width: 7
-        height: 9
+        x: 272
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1873,10 +1873,10 @@ TextureImporter:
       name: GathererExteriorPack_65
       rect:
         serializedVersion: 2
-        x: 100
-        y: 132
-        width: 7
-        height: 9
+        x: 288
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1895,10 +1895,10 @@ TextureImporter:
       name: GathererExteriorPack_66
       rect:
         serializedVersion: 2
-        x: 116
-        y: 132
-        width: 7
-        height: 9
+        x: 320
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1917,9 +1917,9 @@ TextureImporter:
       name: GathererExteriorPack_67
       rect:
         serializedVersion: 2
-        x: 128
-        y: 129
-        width: 15
+        x: 336
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1939,9 +1939,9 @@ TextureImporter:
       name: GathererExteriorPack_68
       rect:
         serializedVersion: 2
-        x: 144
-        y: 129
-        width: 15
+        x: 352
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1961,9 +1961,9 @@ TextureImporter:
       name: GathererExteriorPack_69
       rect:
         serializedVersion: 2
-        x: 160
-        y: 129
-        width: 15
+        x: 368
+        y: 208
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1983,10 +1983,10 @@ TextureImporter:
       name: GathererExteriorPack_70
       rect:
         serializedVersion: 2
-        x: 207
-        y: 103
-        width: 18
-        height: 35
+        x: 384
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2005,10 +2005,10 @@ TextureImporter:
       name: GathererExteriorPack_71
       rect:
         serializedVersion: 2
-        x: 15
-        y: 97
-        width: 17
-        height: 32
+        x: 400
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2027,10 +2027,10 @@ TextureImporter:
       name: GathererExteriorPack_72
       rect:
         serializedVersion: 2
-        x: 31
-        y: 97
-        width: 34
-        height: 25
+        x: 416
+        y: 208
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2049,10 +2049,10 @@ TextureImporter:
       name: GathererExteriorPack_73
       rect:
         serializedVersion: 2
-        x: 63
-        y: 120
-        width: 7
-        height: 8
+        x: 32
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2071,10 +2071,10 @@ TextureImporter:
       name: GathererExteriorPack_74
       rect:
         serializedVersion: 2
-        x: 66
-        y: 113
-        width: 7
-        height: 8
+        x: 48
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2093,10 +2093,10 @@ TextureImporter:
       name: GathererExteriorPack_75
       rect:
         serializedVersion: 2
-        x: 70
-        y: 120
-        width: 7
-        height: 8
+        x: 64
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2115,10 +2115,10 @@ TextureImporter:
       name: GathererExteriorPack_76
       rect:
         serializedVersion: 2
-        x: 73
-        y: 113
-        width: 7
-        height: 8
+        x: 80
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2137,10 +2137,10 @@ TextureImporter:
       name: GathererExteriorPack_77
       rect:
         serializedVersion: 2
-        x: 83
-        y: 115
-        width: 10
-        height: 11
+        x: 96
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2159,10 +2159,10 @@ TextureImporter:
       name: GathererExteriorPack_78
       rect:
         serializedVersion: 2
-        x: 96
-        y: 114
+        x: 112
+        y: 192
         width: 16
-        height: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2181,10 +2181,10 @@ TextureImporter:
       name: GathererExteriorPack_79
       rect:
         serializedVersion: 2
-        x: 111
-        y: 114
-        width: 18
-        height: 10
+        x: 128
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2203,10 +2203,10 @@ TextureImporter:
       name: GathererExteriorPack_80
       rect:
         serializedVersion: 2
-        x: 235
-        y: 111
-        width: 27
-        height: 18
+        x: 144
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2225,10 +2225,10 @@ TextureImporter:
       name: GathererExteriorPack_81
       rect:
         serializedVersion: 2
-        x: 271
-        y: 112
-        width: 18
-        height: 17
+        x: 160
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2247,10 +2247,10 @@ TextureImporter:
       name: GathererExteriorPack_82
       rect:
         serializedVersion: 2
-        x: 356
-        y: 64
-        width: 70
-        height: 62
+        x: 320
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2269,10 +2269,10 @@ TextureImporter:
       name: GathererExteriorPack_83
       rect:
         serializedVersion: 2
-        x: 68
-        y: 95
-        width: 9
-        height: 18
+        x: 336
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2291,10 +2291,10 @@ TextureImporter:
       name: GathererExteriorPack_84
       rect:
         serializedVersion: 2
-        x: 79
-        y: 82
-        width: 34
-        height: 30
+        x: 352
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2313,10 +2313,10 @@ TextureImporter:
       name: GathererExteriorPack_85
       rect:
         serializedVersion: 2
-        x: 113
-        y: 97
-        width: 14
-        height: 13
+        x: 368
+        y: 192
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2335,9 +2335,9 @@ TextureImporter:
       name: GathererExteriorPack_86
       rect:
         serializedVersion: 2
-        x: 116
-        y: 81
-        width: 8
+        x: 384
+        y: 192
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2357,10 +2357,10 @@ TextureImporter:
       name: GathererExteriorPack_87
       rect:
         serializedVersion: 2
-        x: 127
-        y: 81
-        width: 29
-        height: 32
+        x: 64
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2379,10 +2379,10 @@ TextureImporter:
       name: GathererExteriorPack_88
       rect:
         serializedVersion: 2
-        x: 144
-        y: 95
+        x: 80
+        y: 176
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2401,10 +2401,10 @@ TextureImporter:
       name: GathererExteriorPack_89
       rect:
         serializedVersion: 2
-        x: 175
-        y: 0
-        width: 130
-        height: 97
+        x: 96
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2423,10 +2423,10 @@ TextureImporter:
       name: GathererExteriorPack_90
       rect:
         serializedVersion: 2
-        x: 335
-        y: 79
-        width: 18
-        height: 32
+        x: 112
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2445,9 +2445,9 @@ TextureImporter:
       name: GathererExteriorPack_91
       rect:
         serializedVersion: 2
-        x: 163
-        y: 80
-        width: 11
+        x: 128
+        y: 176
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2467,10 +2467,10 @@ TextureImporter:
       name: GathererExteriorPack_92
       rect:
         serializedVersion: 2
-        x: 336
-        y: 51
-        width: 23
-        height: 29
+        x: 144
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2489,10 +2489,10 @@ TextureImporter:
       name: GathererExteriorPack_93
       rect:
         serializedVersion: 2
-        x: 53
-        y: 52
-        width: 6
-        height: 13
+        x: 160
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2511,10 +2511,10 @@ TextureImporter:
       name: GathererExteriorPack_94
       rect:
         serializedVersion: 2
-        x: 53
-        y: 47
-        width: 6
-        height: 6
+        x: 192
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2533,10 +2533,10 @@ TextureImporter:
       name: GathererExteriorPack_95
       rect:
         serializedVersion: 2
-        x: 65
-        y: 52
-        width: 13
-        height: 13
+        x: 208
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2555,10 +2555,10 @@ TextureImporter:
       name: GathererExteriorPack_96
       rect:
         serializedVersion: 2
-        x: 69
-        y: 47
-        width: 6
-        height: 6
+        x: 224
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2577,10 +2577,10 @@ TextureImporter:
       name: GathererExteriorPack_97
       rect:
         serializedVersion: 2
-        x: 80
-        y: 47
-        width: 15
-        height: 18
+        x: 256
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2599,10 +2599,10 @@ TextureImporter:
       name: GathererExteriorPack_98
       rect:
         serializedVersion: 2
-        x: 95
-        y: 47
-        width: 18
-        height: 18
+        x: 272
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2621,10 +2621,10 @@ TextureImporter:
       name: GathererExteriorPack_99
       rect:
         serializedVersion: 2
-        x: 114
-        y: 48
-        width: 12
-        height: 15
+        x: 288
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2643,10 +2643,10 @@ TextureImporter:
       name: GathererExteriorPack_100
       rect:
         serializedVersion: 2
-        x: 129
-        y: 49
-        width: 14
-        height: 14
+        x: 320
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2665,10 +2665,10 @@ TextureImporter:
       name: GathererExteriorPack_101
       rect:
         serializedVersion: 2
-        x: 319
-        y: 51
-        width: 17
-        height: 24
+        x: 336
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2687,10 +2687,10 @@ TextureImporter:
       name: GathererExteriorPack_102
       rect:
         serializedVersion: 2
-        x: 358
-        y: 33
-        width: 26
-        height: 29
+        x: 352
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2709,10 +2709,10 @@ TextureImporter:
       name: GathererExteriorPack_103
       rect:
         serializedVersion: 2
-        x: 383
-        y: 17
-        width: 34
-        height: 43
+        x: 368
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2731,10 +2731,10 @@ TextureImporter:
       name: GathererExteriorPack_104
       rect:
         serializedVersion: 2
-        x: 321
-        y: 17
-        width: 14
-        height: 29
+        x: 384
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2753,10 +2753,10 @@ TextureImporter:
       name: GathererExteriorPack_105
       rect:
         serializedVersion: 2
-        x: 337
-        y: 17
-        width: 29
-        height: 27
+        x: 32
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2775,10 +2775,10 @@ TextureImporter:
       name: GathererExteriorPack_106
       rect:
         serializedVersion: 2
-        x: 357
-        y: 36
-        width: 7
-        height: 12
+        x: 48
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2797,10 +2797,10 @@ TextureImporter:
       name: GathererExteriorPack_107
       rect:
         serializedVersion: 2
-        x: 361
-        y: 33
-        width: 7
-        height: 11
+        x: 64
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2819,10 +2819,10 @@ TextureImporter:
       name: GathererExteriorPack_108
       rect:
         serializedVersion: 2
-        x: 416
-        y: 18
+        x: 80
+        y: 160
         width: 16
-        height: 31
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2841,10 +2841,10 @@ TextureImporter:
       name: GathererExteriorPack_109
       rect:
         serializedVersion: 2
-        x: 368
-        y: 3
-        width: 17
-        height: 30
+        x: 96
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2859,11 +2859,3047 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_110
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24cdbcd7987b8e188a75060f59b086a
+      internalID: 1848804175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dae249ae03421dcb3cadcf9b7d33f5
+      internalID: 536771847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_112
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f59eb25226ce459bcf2466b65065a
+      internalID: -1951020169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1c454bcd1bffbc598b691d73194e67
+      internalID: -1535592556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27bfa4643b98e25ca5d8d639e797e46
+      internalID: 1836295965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_115
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a58ed7c3f5fcb6c969e4b93820e43c
+      internalID: 442368517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_116
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0d4cf44a9a6de3890d7205994491b
+      internalID: 866317024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c0f252eca0e2c999f33f673b808356
+      internalID: -1163647119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bee28349eeab4dda80e5b35a2e68e9
+      internalID: 830273801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3954eb1de7fd372ddbcb1a916e6eb90b
+      internalID: -739950642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfba239f8a0eefdb910ebbccd26d74a
+      internalID: 2078764659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_121
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86cc626f32097dc29070f6f25784d9b
+      internalID: 1437943700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956788dbd23f5e8b38276edcaf29510d
+      internalID: -1360459659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c01de237eea39bdb5e2b7437d2c4b3
+      internalID: 1872859722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6b5d9f534c73f08bc73320ad5a497
+      internalID: 736500754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91982f3e9b4f5e2e9aeda3b61601289
+      internalID: -1647243299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8def3eebc79273f999c0bee132d8b7
+      internalID: 1846642439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de1ae6590a11219a10c5d9f045bdf8
+      internalID: -1339498408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faf07ee1aafaf17ebae0dc070cbef95
+      internalID: 187680026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa703035f1a9b6968c27bd13b5b501b
+      internalID: -1666937896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c33520ff38eb9529749cdf57dddf16
+      internalID: -1981782043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77417daf9a1dbd7579fff90e4c0860f6
+      internalID: -1867210995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5503d296f9fe4a4ada19bb27a1ac0e
+      internalID: 2102996236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9343aff487ef63797bb9af1a0bc13511
+      internalID: 264449350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b69f8be3537fa194472ad93578135
+      internalID: 1388472972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_135
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4426e796b8887ac528a424cbe81536c2
+      internalID: -1629408205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_136
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a7596bd8f5616d7990ea87d28c77e4
+      internalID: 1433831655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbedf23526901a730bc5b4f34ddcd8fc
+      internalID: -92379497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_138
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea83a72ea97dfadd38eb468b6f726291
+      internalID: 1839089573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_139
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433daaa2cf2ca198ab3e11419df602c3
+      internalID: -109256445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_140
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182f6049cf0d3f17a73ea48ccedfcbb
+      internalID: -926361004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e19d2828a0d65778c1f80846b83754
+      internalID: -863440818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_142
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e021f014c263214a561aaefbbf0533
+      internalID: 576409125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8384caca8cd2b5f0281e23ee8327b0a5
+      internalID: 1350838034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_144
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc182499e65bc243879a8b38f8b11a3
+      internalID: -753358821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7252b0ee11a5f66f099f23996f4435e2
+      internalID: 530432444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_146
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e76c99df005f51aa3830b180003cfa
+      internalID: -209756783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_147
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd6f5506077018bdbbaf0fb41f3b780
+      internalID: 1280164011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a7b6f990542dc38854bf0eb546eed
+      internalID: -133221538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db032159e1a1d5a76972287dd2345ab3
+      internalID: -1379722684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_150
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b063f3e2b692daa85535b66afcefa7
+      internalID: 2039682006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_151
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e244e15f8b13883168bc482ef0bab8e6
+      internalID: 129473631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_152
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda3b96bb454eb3ab47cfff91b6c1cc
+      internalID: -1688643204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2253832e8ed6121951c2d3e45f7421
+      internalID: -154083698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_154
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e65f38b0ca19dc5beaa4097b4da8db
+      internalID: 2124284846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73542594244595d5a1696013302dabf
+      internalID: 989105221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b25ac4642fe63378bd3586602cd6af
+      internalID: -1997786119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f91ff9812b94bd595c03d274f49d9b
+      internalID: -2019563804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_158
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd0caa3a36f8c3a811c379d97dce4e
+      internalID: 2104514145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_159
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2bc68411259bf0da4a8787044caaaf
+      internalID: 1497600860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_160
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343bd77d76a5192149bc37fae7297530
+      internalID: 923184762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_161
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeda8938c9f051ad9daa409889113f2
+      internalID: -1162886755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_162
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf532049d07b96629f1873ac6fa2240
+      internalID: -561959301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_163
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e46ae5ec0e603e3b5f3e08c437ba19
+      internalID: -947037830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_164
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492221df86da6c92e898516b35dbeec7
+      internalID: -1992512615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_165
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d634801d44753c0cb7d4761444f97f1
+      internalID: 1300544365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833a7e2b1dba4989b051393f485a39e
+      internalID: -1368415776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8b3261c4d7d5ac6aa4859722d9b924
+      internalID: -2043590114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_168
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89747940fad2e860b6a253d5334ebd4
+      internalID: 2084121806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03fce7ab5887a9d9b0d48f979f8c902
+      internalID: 1626209837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_170
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c6820e515c825019cd09cb32c14b87
+      internalID: -886320108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fef5bd9899c189f8ea652a2abebda7
+      internalID: -840034830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_172
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58fcde5fd2f07228800745397b74609
+      internalID: 719137962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f63c92cd6808c84849ec1877882c23
+      internalID: 1228906850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_174
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3da400a43047884bccbed7e827c4b5
+      internalID: 1787750053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_175
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507bfcd05ab89852c8b62260441b2ce3
+      internalID: -1482421252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_176
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e55ce48d0287720b5571237aa84791
+      internalID: 1497761777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_177
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d52d7d734dbb9fab3b831b8aa71ea
+      internalID: 922190072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d6fdfa15c12c82b3cf36cc8a6f65d
+      internalID: 1497557302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_179
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a796e96d572ec1ba30cf42236396a8
+      internalID: -657431105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_180
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4450f5246c6405ab27764922e1c775
+      internalID: 422206167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_181
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8f922216e5b344eb2026bee3c985c5
+      internalID: 1252579769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7309d1317b9f8fac8d05045ed2d42cc
+      internalID: 31078122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_183
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2ef153d03a896efbfb98a921c31d07
+      internalID: 1757777320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649b21ab2c5e1b99c85c21e40715ad7b
+      internalID: 1001552224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4461d28967f64ae8b81e646526b62733
+      internalID: -1920177729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_186
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74cd13c4bcdf6e6b86204f0a3579cfa
+      internalID: -750491625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_187
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6ad28a1c804297a6983c9ff04cb87
+      internalID: 694940747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_188
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343e369292a95dfba9ca207ed33b32d7
+      internalID: 1607467969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_189
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e3c6b47b1eb785e90ffeaa564053ac
+      internalID: -458377287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_190
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436b280eac583776ab4ebc2ba68cfb0d
+      internalID: 1408546134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57f9752feb7fdedabcbad333fed80d1
+      internalID: 858600781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_192
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2011127fa0c0402dc934bd4327cff7f6
+      internalID: -94298962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_193
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9959209dc37fb265ad109c89ecfc9c1
+      internalID: 254366347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_194
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43b3a6cf419b1f5cb4dc635cc11ce8a
+      internalID: -125610522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_195
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746ee0370809c10fb8172e5ca4a784d0
+      internalID: 1189501838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_196
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79907904409cfd1992d24bc19b76958
+      internalID: 1822200362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01990a800f65721f7948c2c20b8305a1
+      internalID: 1343451643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_198
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa4436131e0f6dd59729259878172e0
+      internalID: 1716314645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_199
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98a0fab6463a4f15bda183c5298355f
+      internalID: -2040705685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_200
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25368dac9448e6484bf7e4a49fdcd332
+      internalID: 1515448046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_201
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f6fa24ed7a4ad68e04c3e2c54b5e2
+      internalID: -623310645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_202
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63771f3b1f99dda329618a9f079292d0
+      internalID: -575117267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_203
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427a9553f62ad93e8862a3a56d6ec1e1
+      internalID: 88753501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_204
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b20486e3da4408edb937836d09445a9
+      internalID: 1301087657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_205
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349730c52c2fb969db9798cc08d5da4f
+      internalID: -228335956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_206
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73be323b372176af39cd0ad7affcf73e
+      internalID: -366480459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_207
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faf9af4dfd8f9d899c90a6f8ad9dbbe
+      internalID: -545388499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_208
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c83cbecb4024a99b704f8625783af6
+      internalID: 922972295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_209
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69745f890d7d81215a7dd1ad36247f9a
+      internalID: -1320178220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_210
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c396c0b9adb8e7f4fabdceb7bea6b186
+      internalID: 736195798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_211
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba6a098c2cd3b23a5511638bd2ee58
+      internalID: -1103093698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_212
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1287b0274f2955e282c9595c77ae2da
+      internalID: -1547625074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_213
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f45113aed7a1d1995e4ca8af6a9025
+      internalID: 546843245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_214
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa4bf9c45b80c7089e458aa4c314a5b
+      internalID: 829213652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_215
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f18916aa442085acab45f525264a50b
+      internalID: -1543744691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7762ad39ab02e70903101fb7b28039
+      internalID: -1629253251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_217
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf987a723647f10ca77e89f518cf0b2
+      internalID: 1067936231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_218
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b7359506ba4e27b793f4ac9ca9e1f
+      internalID: 1889005665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_219
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ba459dbd4d5d2a997a5aa9d5574962
+      internalID: 1867838225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_220
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1587ea5591f89650bf04b1e600bf046
+      internalID: 461160605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_221
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce606a2047b43239fad19a2dcb80f3bc
+      internalID: 2046200231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_222
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156ec99fdfa6d607ab345bae8fcccf9d
+      internalID: 1792379242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_223
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f71c47ce67bd6cda85978c9ee11323a
+      internalID: 829642634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_224
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1277402803015bfa8cb9513570c8ea
+      internalID: 63840347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_225
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e216b4315e7dbe7278bb8fce49f80822
+      internalID: 675552324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_226
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8da8a60be77a31089d8aa3e6d027c1
+      internalID: -1859867255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_227
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b134300255be978038751647c9d34f8f
+      internalID: 746332049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_228
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202a5d2ce4ad13504ac469b779687d22
+      internalID: 492543735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_229
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75fd7d4635b516ccb23f2f007ee2519
+      internalID: -853619357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_230
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3736233d6881f85d9fe93e2445ae182
+      internalID: 944401394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_231
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98d38a274f85eef182d14f182068a2c
+      internalID: 1105335672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_232
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe73bd6f4c106942d8e06553f218e74b
+      internalID: -1695795823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_233
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cb53b9386193f0f835e9a8a0cc9aac
+      internalID: -1916291454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_234
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecba4cf7e0200b33ae0a734ad35737c
+      internalID: 885670077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_235
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72433e62405e0456b74697cd55724ab
+      internalID: -1564047106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_236
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8d69e442d1c3862ae40ed1e5831a4b
+      internalID: 64273956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_237
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647080c4ed6e554c8a13bdbd5c185066
+      internalID: 1832440989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788b3a6bf0f3310483d363048172294
+      internalID: 718223279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_239
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf82ceff2dba6c16d9ba42c7ccb50d62
+      internalID: -660232685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_240
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c35e8b7d8892cec8ea805badd82a11
+      internalID: 1610108059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_241
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7a7308108e8f02c9e5470d5d5ddb5d
+      internalID: 1205516904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_242
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5206888e5d527df0d8c132d71cd7b064
+      internalID: -1247623980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_243
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b92de09dd66b558766ce3920fe332
+      internalID: 1324534761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_244
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a413805563fee48bc203e570d9673
+      internalID: 1890875154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_245
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f8c4111a1b0e462980b41967888d8e
+      internalID: -2116501324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_246
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c89d9c90049cf48e8455302b23e91
+      internalID: -1692638589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GathererExteriorPack_247
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456f9124b6e85de1b91066f8c318cdf8
+      internalID: 837626916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9144d22fa03b3483929c65b63ceae94
     internalID: 0
     vertices: []
     indices: 
@@ -2871,7 +5907,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       GathererExteriorPack_0: 7915608635930783463
       GathererExteriorPack_1: -3767890034987464108
@@ -2887,20 +5925,158 @@ TextureImporter:
       GathererExteriorPack_108: -7071007374533165534
       GathererExteriorPack_109: -7011939173014882147
       GathererExteriorPack_11: 5359320220968005320
+      GathererExteriorPack_110: 1848804175
+      GathererExteriorPack_111: 536771847
+      GathererExteriorPack_112: -1951020169
+      GathererExteriorPack_113: -1535592556
+      GathererExteriorPack_114: 1836295965
+      GathererExteriorPack_115: 442368517
+      GathererExteriorPack_116: 866317024
+      GathererExteriorPack_117: -1163647119
+      GathererExteriorPack_118: 830273801
+      GathererExteriorPack_119: -739950642
       GathererExteriorPack_12: -8286966230458585622
+      GathererExteriorPack_120: 2078764659
+      GathererExteriorPack_121: 1437943700
+      GathererExteriorPack_122: -1360459659
+      GathererExteriorPack_123: 1872859722
+      GathererExteriorPack_124: 736500754
+      GathererExteriorPack_125: -1647243299
+      GathererExteriorPack_126: 1846642439
+      GathererExteriorPack_127: -1339498408
+      GathererExteriorPack_128: 187680026
+      GathererExteriorPack_129: -1666937896
       GathererExteriorPack_13: -2170196488667097872
+      GathererExteriorPack_130: -1981782043
+      GathererExteriorPack_131: -1867210995
+      GathererExteriorPack_132: 2102996236
+      GathererExteriorPack_133: 264449350
+      GathererExteriorPack_134: 1388472972
+      GathererExteriorPack_135: -1629408205
+      GathererExteriorPack_136: 1433831655
+      GathererExteriorPack_137: -92379497
+      GathererExteriorPack_138: 1839089573
+      GathererExteriorPack_139: -109256445
       GathererExteriorPack_14: 968368026637038019
+      GathererExteriorPack_140: -926361004
+      GathererExteriorPack_141: -863440818
+      GathererExteriorPack_142: 576409125
+      GathererExteriorPack_143: 1350838034
+      GathererExteriorPack_144: -753358821
+      GathererExteriorPack_145: 530432444
+      GathererExteriorPack_146: -209756783
+      GathererExteriorPack_147: 1280164011
+      GathererExteriorPack_148: -133221538
+      GathererExteriorPack_149: -1379722684
       GathererExteriorPack_15: -7164876059816140579
+      GathererExteriorPack_150: 2039682006
+      GathererExteriorPack_151: 129473631
+      GathererExteriorPack_152: -1688643204
+      GathererExteriorPack_153: -154083698
+      GathererExteriorPack_154: 2124284846
+      GathererExteriorPack_155: 989105221
+      GathererExteriorPack_156: -1997786119
+      GathererExteriorPack_157: -2019563804
+      GathererExteriorPack_158: 2104514145
+      GathererExteriorPack_159: 1497600860
       GathererExteriorPack_16: -8328235746709927904
+      GathererExteriorPack_160: 923184762
+      GathererExteriorPack_161: -1162886755
+      GathererExteriorPack_162: -561959301
+      GathererExteriorPack_163: -947037830
+      GathererExteriorPack_164: -1992512615
+      GathererExteriorPack_165: 1300544365
+      GathererExteriorPack_166: -1368415776
+      GathererExteriorPack_167: -2043590114
+      GathererExteriorPack_168: 2084121806
+      GathererExteriorPack_169: 1626209837
       GathererExteriorPack_17: -5244773331198951523
+      GathererExteriorPack_170: -886320108
+      GathererExteriorPack_171: -840034830
+      GathererExteriorPack_172: 719137962
+      GathererExteriorPack_173: 1228906850
+      GathererExteriorPack_174: 1787750053
+      GathererExteriorPack_175: -1482421252
+      GathererExteriorPack_176: 1497761777
+      GathererExteriorPack_177: 922190072
+      GathererExteriorPack_178: 1497557302
+      GathererExteriorPack_179: -657431105
       GathererExteriorPack_18: 310253255399121555
+      GathererExteriorPack_180: 422206167
+      GathererExteriorPack_181: 1252579769
+      GathererExteriorPack_182: 31078122
+      GathererExteriorPack_183: 1757777320
+      GathererExteriorPack_184: 1001552224
+      GathererExteriorPack_185: -1920177729
+      GathererExteriorPack_186: -750491625
+      GathererExteriorPack_187: 694940747
+      GathererExteriorPack_188: 1607467969
+      GathererExteriorPack_189: -458377287
       GathererExteriorPack_19: 8688158768976322631
+      GathererExteriorPack_190: 1408546134
+      GathererExteriorPack_191: 858600781
+      GathererExteriorPack_192: -94298962
+      GathererExteriorPack_193: 254366347
+      GathererExteriorPack_194: -125610522
+      GathererExteriorPack_195: 1189501838
+      GathererExteriorPack_196: 1822200362
+      GathererExteriorPack_197: 1343451643
+      GathererExteriorPack_198: 1716314645
+      GathererExteriorPack_199: -2040705685
       GathererExteriorPack_2: -8646985973659889851
       GathererExteriorPack_20: 7676972791841258649
+      GathererExteriorPack_200: 1515448046
+      GathererExteriorPack_201: -623310645
+      GathererExteriorPack_202: -575117267
+      GathererExteriorPack_203: 88753501
+      GathererExteriorPack_204: 1301087657
+      GathererExteriorPack_205: -228335956
+      GathererExteriorPack_206: -366480459
+      GathererExteriorPack_207: -545388499
+      GathererExteriorPack_208: 922972295
+      GathererExteriorPack_209: -1320178220
       GathererExteriorPack_21: 7585909215291686759
+      GathererExteriorPack_210: 736195798
+      GathererExteriorPack_211: -1103093698
+      GathererExteriorPack_212: -1547625074
+      GathererExteriorPack_213: 546843245
+      GathererExteriorPack_214: 829213652
+      GathererExteriorPack_215: -1543744691
+      GathererExteriorPack_216: -1629253251
+      GathererExteriorPack_217: 1067936231
+      GathererExteriorPack_218: 1889005665
+      GathererExteriorPack_219: 1867838225
       GathererExteriorPack_22: -3626930938621651743
+      GathererExteriorPack_220: 461160605
+      GathererExteriorPack_221: 2046200231
+      GathererExteriorPack_222: 1792379242
+      GathererExteriorPack_223: 829642634
+      GathererExteriorPack_224: 63840347
+      GathererExteriorPack_225: 675552324
+      GathererExteriorPack_226: -1859867255
+      GathererExteriorPack_227: 746332049
+      GathererExteriorPack_228: 492543735
+      GathererExteriorPack_229: -853619357
       GathererExteriorPack_23: -5778807000789913932
+      GathererExteriorPack_230: 944401394
+      GathererExteriorPack_231: 1105335672
+      GathererExteriorPack_232: -1695795823
+      GathererExteriorPack_233: -1916291454
+      GathererExteriorPack_234: 885670077
+      GathererExteriorPack_235: -1564047106
+      GathererExteriorPack_236: 64273956
+      GathererExteriorPack_237: 1832440989
+      GathererExteriorPack_238: 718223279
+      GathererExteriorPack_239: -660232685
       GathererExteriorPack_24: -4290781588916744764
+      GathererExteriorPack_240: 1610108059
+      GathererExteriorPack_241: 1205516904
+      GathererExteriorPack_242: -1247623980
+      GathererExteriorPack_243: 1324534761
+      GathererExteriorPack_244: 1890875154
+      GathererExteriorPack_245: -2116501324
+      GathererExteriorPack_246: -1692638589
+      GathererExteriorPack_247: 837626916
       GathererExteriorPack_25: 498098895339935445
       GathererExteriorPack_26: -5070281066900423817
       GathererExteriorPack_27: -8723378172678628306

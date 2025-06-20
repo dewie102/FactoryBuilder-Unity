@@ -4,6 +4,8 @@ using Assets.Scripts.EntitySystem;
 using Assets.Scripts.Data.Entities;
 
 using UnityEngine;
+using Assets.Scripts.EntitySystem.Interfaces;
+using System.Linq;
 
 public class EntityManager : MonoBehaviour
 {
@@ -37,9 +39,7 @@ public class EntityManager : MonoBehaviour
 
     public Entity GetEntityAt(Vector3Int position)
     {
-        Entity entity = null;
-        _entities.TryGetValue(position, out entity);
-
+        _entities.TryGetValue(position, out Entity entity);
 
         return entity;
     }
@@ -52,8 +52,35 @@ public class EntityManager : MonoBehaviour
     public void TickEntities()
     {
         Debug.Log($"EntityManager::Ticking All Entities: {_entities.Count}");
-        foreach(var entity in _entities.Values)
+        foreach(KeyValuePair<Vector3Int, Entity> entityPair in _entities)
         {
+            Vector3Int entityPosition = entityPair.Key;
+            Entity entity = entityPair.Value;
+
+            if (entity is IItemConsumer consumer)
+            {
+                Direction inputDirection = consumer.InputDirections.First();
+                Vector3Int inputPos = entityPosition + DirectionUtils.ToVector3Int(inputDirection);
+                Entity inputEntity = GetEntityAt(inputPos);
+
+                if (inputEntity is IItemProducer itemProducer && itemProducer.HasItem)
+                {
+                    Item item = itemProducer.PeekItem();
+                    if (item != null)
+                    {
+                        if (consumer.TryConsumeItem(item))
+                        {
+                            itemProducer.RemoveItem();
+                            Debug.Log($"Consumer at {entityPosition} consumed item from {inputPos}");
+                        }
+                        else
+                        {
+                            Debug.Log($"Consumer at {entityPosition} FAILED to consume item from {inputPos}");
+                        }
+                    }
+                }
+            }
+
             entity.OnTick();
         }
     }

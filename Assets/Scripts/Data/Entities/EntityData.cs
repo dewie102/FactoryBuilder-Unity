@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Data.Items;
+using UnityEngine;
 
 namespace Assets.Scripts.Data.Entities
 {
@@ -13,6 +14,7 @@ namespace Assets.Scripts.Data.Entities
         [Header("Classification")]
         public EntityCategory category; // Optoinal enum to group types
         public EntityType type; // For logic and factory use
+        public ItemData itemToProduce;
 
         [Header("Placement Info")]
         public GameObject prefab; // Visual prefab to spawn
