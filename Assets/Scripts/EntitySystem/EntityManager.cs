@@ -11,6 +11,8 @@ public class EntityManager : MonoBehaviour
 {
     public static EntityManager Instance { get; private set; }
     public static event Action<Vector3Int, Entity> EntityPlaced;
+    // Item, position from, position to
+    public static event Action<Item, Vector3Int, Vector3Int> ItemTransferred;
 
     private Dictionary<Vector3Int, Entity> _entities;
 
@@ -71,6 +73,7 @@ public class EntityManager : MonoBehaviour
                         if (consumer.TryConsumeItem(item))
                         {
                             itemProducer.RemoveItem();
+                            ItemTransferred?.Invoke(item, inputPos, entityPosition);
                             Debug.Log($"Consumer at {entityPosition} consumed item from {inputPos}");
                         }
                         else

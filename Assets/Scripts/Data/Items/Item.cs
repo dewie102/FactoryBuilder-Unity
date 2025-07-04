@@ -10,6 +10,7 @@ public class Item : IEquatable<Item>
     public int maxStackSize; // for inventory systems
     public ItemCategory category;
     public int value; // for economy systems later?
+    public GameObject prefab;
 
     public Item(ItemData data)
     {
@@ -18,6 +19,7 @@ public class Item : IEquatable<Item>
         sprite = data.sprite;
         maxStackSize = data.maxStackSize;
         category = data.category;
+        prefab = data.prefab;
     }
 
     public bool Equals(Item other)

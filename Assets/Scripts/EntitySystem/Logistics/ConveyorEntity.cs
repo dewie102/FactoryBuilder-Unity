@@ -11,13 +11,12 @@ namespace Assets.Scripts.EntitySystem.Logistics
         private readonly HashSet<Direction> _outputDirection = new();
 
         private Item _currentItem;
-        private GameObject _itemVisual;
         public ConveyorEntity(EntityData data) : base(data)
         {
             SetOrientation(Direction.LEFT, Direction.RIGHT);
         }
 
-        public bool HasItem => _currentItem == null;
+        public bool HasItem => _currentItem != null;
 
         public IEnumerable<Direction> InputDirections => _inputDirection;
 
