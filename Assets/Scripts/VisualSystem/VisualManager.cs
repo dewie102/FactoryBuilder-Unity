@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+
+using Assets.Scripts.Core;
 using Assets.Scripts.EntitySystem;
 using Unity.Mathematics;
 using UnityEngine;
@@ -11,14 +13,14 @@ public class VisualManager : MonoBehaviour
 
     private void OnEnable()
     {
-        EntityManager.EntityPlaced += HandleEntityPlaced;
-        ItemMovementManager.ItemTransferred += HandleItemTransferred;
+        WorldManager.EntityPlaced += HandleEntityPlaced;
+        WorldManager.ItemTransferred += HandleItemTransferred;
     }
 
     private void OnDisable()
     {
-        EntityManager.EntityPlaced -= HandleEntityPlaced;
-        ItemMovementManager.ItemTransferred -= HandleItemTransferred;
+        WorldManager.EntityPlaced -= HandleEntityPlaced;
+        WorldManager.ItemTransferred -= HandleItemTransferred;
     }
 
     private void HandleEntityPlaced(Vector3Int cellPosition, Entity entity)
@@ -37,7 +39,7 @@ public class VisualManager : MonoBehaviour
             return;
         }
 
-        Vector3 worldPosition = GridManager.Instance.CellToWorld(cellPosition);
+        Vector3 worldPosition = WorldManager.Instance.CellToWorld(cellPosition);
 
         GameObject instance = Instantiate(prefab, worldPosition, Quaternion.identity);
         _spawnedEntities[cellPosition] = instance;
@@ -45,7 +47,7 @@ public class VisualManager : MonoBehaviour
 
     private void HandleItemTransferred(ItemTransfer transfer)
     {
-        Vector3 worldTo = GridManager.Instance.CellToWorld(transfer.to);
+        Vector3 worldTo = WorldManager.Instance.CellToWorld(transfer.to);
 
         if (_spawnedItems.TryGetValue(transfer.item, out var obj))
         {

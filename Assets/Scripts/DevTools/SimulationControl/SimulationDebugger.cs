@@ -1,4 +1,7 @@
 using System.Text;
+
+using Assets.Scripts.Core;
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -48,7 +51,7 @@ public class SimulationDebugger : MonoBehaviour
 
     public void TriggerTick()
     {
-        SimulationManager.Instance.TickAllEntities();
+        WorldManager.Instance.TickWorld();
         tickCount++;
     }
 
