@@ -11,8 +11,6 @@ public class EntityManager : MonoBehaviour
 {
     public static EntityManager Instance { get; private set; }
     public static event Action<Vector3Int, Entity> EntityPlaced;
-    // Item, position from, position to
-    public static event Action<Item, Vector3Int, Vector3Int> ItemTransferred;
 
     private Dictionary<Vector3Int, Entity> _entities;
 
@@ -70,16 +68,7 @@ public class EntityManager : MonoBehaviour
                     Item item = itemProducer.PeekItem();
                     if (item != null)
                     {
-                        if (consumer.TryConsumeItem(item))
-                        {
-                            itemProducer.RemoveItem();
-                            ItemTransferred?.Invoke(item, inputPos, entityPosition);
-                            Debug.Log($"Consumer at {entityPosition} consumed item from {inputPos}");
-                        }
-                        else
-                        {
-                            Debug.Log($"Consumer at {entityPosition} FAILED to consume item from {inputPos}");
-                        }
+                        ItemMovementManager.Instance.QueueTransfer(new(item, inputPos, entityPosition, inputEntity, entity));
                     }
                 }
             }

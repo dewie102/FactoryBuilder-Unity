@@ -12,13 +12,13 @@ public class VisualManager : MonoBehaviour
     private void OnEnable()
     {
         EntityManager.EntityPlaced += HandleEntityPlaced;
-        EntityManager.ItemTransferred += HandleItemTransferred;
+        ItemMovementManager.ItemTransferred += HandleItemTransferred;
     }
 
     private void OnDisable()
     {
         EntityManager.EntityPlaced -= HandleEntityPlaced;
-        EntityManager.ItemTransferred -= HandleItemTransferred;
+        ItemMovementManager.ItemTransferred -= HandleItemTransferred;
     }
 
     private void HandleEntityPlaced(Vector3Int cellPosition, Entity entity)
@@ -43,18 +43,18 @@ public class VisualManager : MonoBehaviour
         _spawnedEntities[cellPosition] = instance;
     }
 
-    private void HandleItemTransferred(Item item, Vector3Int from, Vector3Int to)
+    private void HandleItemTransferred(ItemTransfer transfer)
     {
-        Vector3 worldTo = GridManager.Instance.CellToWorld(to);
+        Vector3 worldTo = GridManager.Instance.CellToWorld(transfer.to);
 
-        if (_spawnedItems.TryGetValue(item, out var obj))
+        if (_spawnedItems.TryGetValue(transfer.item, out var obj))
         {
             obj.transform.position = worldTo;
         }
         else
         {
-            GameObject visual = Instantiate(item.prefab, worldTo, quaternion.identity);
-            _spawnedItems[item] = visual;
+            GameObject visual = Instantiate(transfer.item.prefab, worldTo, quaternion.identity);
+            _spawnedItems[transfer.item] = visual;
         }
     }
 }

@@ -29,6 +29,8 @@ public class SimulationManager : MonoBehaviour
     public void TickAllEntities()
     {
         Debug.Log("SimulationManager Tick");
+        ItemMovementManager.Instance.ClearQueue();
         EntityManager.Instance.TickEntities();
+        ItemMovementManager.Instance.ApplyTransfers();
     }
 }
