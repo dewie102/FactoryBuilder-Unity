@@ -3,7 +3,6 @@ using System.Text;
 
 using Assets.Scripts.Core;
 using Assets.Scripts.EntitySystem;
-using Assets.Scripts.Systems.InputSystem;
 
 using TMPro;
 
@@ -15,28 +14,22 @@ namespace Assets.Scripts.DevTools.RuntimeDebugger
 {
     public class TileDebugger : MonoBehaviour
     {
+        [Header("References")]
         public InputManager inputManager;
         public TextMeshProUGUI textMeshPro;
 
-        private float _nextUpdate;
+        [Header("Settings")]
         public float updateRate = 0.1f; // 100 ms
-
-        private GameObject tileHighlight;
-        private SpriteRenderer highlightRenderer;
-
         public Color validColor = new Color(0f, 1f, 0f, 1.0f);   // Green transparent
         public Color invalidColor = new Color(1f, 0f, 0f, 1.0f); // Red transparent
 
+        private float _nextUpdate;
+        private GameObject _tileHighlight;
+        private SpriteRenderer _highlightRenderer;
+
         void Start()
         {
-            tileHighlight = new();
-            highlightRenderer = tileHighlight.AddComponent<SpriteRenderer>();
-
-            highlightRenderer.sprite = Resources.Load<Sprite>("sprites/white_square");
-            highlightRenderer.color = validColor;
-            highlightRenderer.sortingOrder = 100; // Ensure it's on top
-
-            tileHighlight.transform.localScale = Vector3.one; // Adjust if your tiles are scaled
+            CreateTileHighlight();
         }
 
         void Update()
@@ -44,29 +37,59 @@ namespace Assets.Scripts.DevTools.RuntimeDebugger
             if(Time.time < _nextUpdate) return;
             _nextUpdate = Time.time + updateRate;
 
+            UpdateDebugInfo();
+        }
+
+        private void CreateTileHighlight()
+        {
+            _tileHighlight = new GameObject("TileHighlight");
+            _highlightRenderer = _tileHighlight.AddComponent<SpriteRenderer>();
+
+            _highlightRenderer.sprite = Resources.Load<Sprite>("sprites/white_square");
+            _highlightRenderer.color = validColor;
+            _highlightRenderer.sortingOrder = 100; // Ensure it's on top
+
+            _tileHighlight.transform.localScale = Vector3.one;
+        }
+
+        private void UpdateDebugInfo()
+        {
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector3Int tilePosition = WorldManager.Instance.WorldToCell(mouseWorldPosition);
+
+            // Update Highlight position
+            UpdateHighlightPosition(tilePosition);
+
+            // Build debug text
             StringBuilder sb = new();
+            sb.Append($"Tile Position: {tilePosition}\n");
 
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            Vector3Int tilePos = WorldManager.Instance.WorldToCell(mouseWorldPos);
+            // Get tile information from WorldManager
+            sb.Append(WorldManager.Instance.GetTileDebugInfo(tilePosition));
 
-            tileHighlight.transform.position = new Vector3(tilePos.x, tilePos.y, 0f);
-
-            sb.Append($"Tile Position: {tilePos}\n");
-
-            foreach(Tilemap tilemap in WorldManager.Instance.tilemaps)
-            {
-                TileBase tile = tilemap.GetTile(tilePos);
-                string tilename = tile != null ? tile.name : "";
-                sb.Append($"{tilemap.name}: {tilename}\n");
-            }
-
-            Entity entity = WorldManager.Instance.GetEntityAt(tilePos);
-            string entityName = entity != null ? entity.Data.displayName : "";
+            // Get entity information
+            Entity entity = WorldManager.Instance.GetEntityAt(tilePosition);
+            string entityName = entity != null ? entity.Data.displayName : "None";
             sb.Append($"Entity: {entityName}\n");
 
             textMeshPro.text = sb.ToString();
 
-            highlightRenderer.color = entity != null ? invalidColor : validColor;
+            // Update highlight color based on entity presence
+            _highlightRenderer.color = entity != null ? invalidColor : validColor;
+        }
+
+        private void UpdateHighlightPosition(Vector3Int tilePosition)
+        {
+            Vector3 worldPosition = WorldManager.Instance.CellToWorld(tilePosition);
+            _tileHighlight.transform.position = worldPosition;
+        }
+
+        private void OnDestroy()
+        {
+            if (_tileHighlight != null)
+            {
+                Destroy(_tileHighlight);
+            }
         }
     }
 }

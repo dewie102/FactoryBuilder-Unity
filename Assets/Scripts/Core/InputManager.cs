@@ -1,9 +1,7 @@
-using Assets.Scripts.Systems.BuildSystem;
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Assets.Scripts.Systems.InputSystem
+namespace Assets.Scripts.Core
 {
     public class InputManager : MonoBehaviour
     {

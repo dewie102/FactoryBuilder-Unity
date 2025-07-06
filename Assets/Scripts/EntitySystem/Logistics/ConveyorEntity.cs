@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Assets.Scripts.Data.Entities;
 using Assets.Scripts.EntitySystem.Interfaces;
 using UnityEngine;
@@ -11,6 +12,11 @@ namespace Assets.Scripts.EntitySystem.Logistics
         private readonly HashSet<Direction> _outputDirection = new();
 
         private Item _currentItem;
+
+        // Events
+        public event Action<Item> ItemAdded;
+        public event Action ItemRemoved;
+
         public ConveyorEntity(EntityData data) : base(data)
         {
             SetOrientation(Direction.LEFT, Direction.RIGHT);
@@ -30,6 +36,7 @@ namespace Assets.Scripts.EntitySystem.Logistics
         public void RemoveItem()
         {
             _currentItem = null;
+            ItemRemoved?.Invoke();
         }
 
         public Item PeekItem()
@@ -39,12 +46,35 @@ namespace Assets.Scripts.EntitySystem.Logistics
 
         public bool TryConsumeItem(Item item)
         {
-            if (_currentItem == null)
+            Debug.Log($"ConveyorEntity: Trying to consume {item.DisplayName}");
+            if(CanConsumeItem(item))
             {
-                _currentItem = item;
+                Debug.Log($"ConveyorEntity: Successfully consuming {item.DisplayName}");
+                AddItem(item);
                 return true;
             }
+            Debug.Log($"ConveyorEntity: Cannot consume {item.DisplayName} - already has item: {HasItem}");
             return false;
+        }
+
+        public bool CanConsumeItem(Item item)
+        {
+            //return !HasItem;
+            bool canConsume = !HasItem;
+            Debug.Log($"ConveyorEntity.CanConsumeItem: HasItem={HasItem}, CanConsume={canConsume}");
+            return canConsume;
+        }
+
+        public void AddItem(Item item)
+        {
+            if(_currentItem != null)
+            {
+                Debug.LogWarning("Conveyor already has an item, cannot add another.");
+                return;
+            }
+
+            _currentItem = item;
+            ItemAdded?.Invoke(item);
         }
 
         public void SetOrientation(Direction input, Direction output)

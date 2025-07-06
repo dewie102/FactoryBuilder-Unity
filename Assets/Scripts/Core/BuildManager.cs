@@ -1,9 +1,8 @@
-using Assets.Scripts.Core;
 using Assets.Scripts.Data.Entities;
 
 using UnityEngine;
 
-namespace Assets.Scripts.Systems.BuildSystem
+namespace Assets.Scripts.Core
 {
     /// <summary>
     /// Manages the building of entities in the game world.

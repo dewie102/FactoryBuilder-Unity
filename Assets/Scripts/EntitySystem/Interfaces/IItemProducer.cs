@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Assets.Scripts.EntitySystem.Interfaces
 {
@@ -8,5 +9,9 @@ namespace Assets.Scripts.EntitySystem.Interfaces
         bool HasItem { get; }
         void RemoveItem();
         Item PeekItem();
+
+        // Events for visual updates
+        event Action<Item> ItemAdded;
+        event Action ItemRemoved;
     }
 }

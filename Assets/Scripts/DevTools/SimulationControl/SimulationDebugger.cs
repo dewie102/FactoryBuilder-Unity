@@ -23,6 +23,8 @@ public class SimulationDebugger : MonoBehaviour
         autoSimulationToggle.onValueChanged.AddListener(SetSimulationMode);
         tickIntervalSlider.onValueChanged.AddListener(SetTickInterval);
 
+        autoSimulate = SimulationManager.Instance.simulationActive;
+
         autoSimulationToggle.isOn = autoSimulate;
         tickIntervalSlider.value = tickInterval;
     }

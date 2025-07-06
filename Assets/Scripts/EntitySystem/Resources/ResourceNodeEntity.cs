@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Assets.Scripts.Data.Entities;
 using Assets.Scripts.Data.Items;
 using Assets.Scripts.EntitySystem.Interfaces;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 namespace Assets.Scripts.EntitySystem.Resources
@@ -12,6 +12,10 @@ namespace Assets.Scripts.EntitySystem.Resources
         private readonly HashSet<Direction> _outputDirection = new();
         private ItemData _itemToProduce;
         private Item _currentItem;
+
+        // Events
+        public event Action<Item> ItemAdded;
+        public event Action ItemRemoved;
 
         public ResourceNodeEntity(EntityData data) : base(data)
         {
@@ -25,11 +29,16 @@ namespace Assets.Scripts.EntitySystem.Resources
 
         public override void OnTick()
         {
-            Debug.Log($"{this} is ticking.");
-            if (_currentItem == null)
+            Debug.Log($"ResourceNodeEntity: Ticking - HasItem: {HasItem}");
+            if(_currentItem == null)
             {
                 _currentItem = new Item(_itemToProduce);
-                Debug.Log($"Produced item: {_currentItem.DisplayName}");
+                ItemAdded?.Invoke(_currentItem);
+                Debug.Log($"ResourceNodeEntity: Produced {_currentItem.DisplayName}");
+            }
+            else
+            {
+                Debug.Log($"ResourceNodeEntity: Already has item: {_currentItem.DisplayName}");
             }
         }
 
@@ -41,6 +50,7 @@ namespace Assets.Scripts.EntitySystem.Resources
         public void RemoveItem()
         {
             _currentItem = null;
+            ItemRemoved?.Invoke();
         }
     }
 }
