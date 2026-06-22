@@ -6,10 +6,9 @@ namespace Assets.Scripts.Core
 {
     public class ConveyorChain
     {
-        public List<Vector3Int> positions;
-        public Dictionary<int, Item> items;
-        public Direction inputDirection;
-        public Direction outputDirection;
+        public List<Vector3Int> Positions = new(); // Ordered Sequence
+        public Vector3Int InputPosition => Positions[0];
+        public Vector3Int OutputPosition => Positions[^1];
 
         public void AdvanceItems()
         {

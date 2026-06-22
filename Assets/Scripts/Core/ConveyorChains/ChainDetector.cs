@@ -9,8 +9,8 @@ namespace Assets.Scripts.Core
     public class ChainDetector
     {
         /// Algorithm Flow:
-        /// 1. Find all "chain starts" (conveyors with no input OR input from non-conveyor)
-        /// 2. Trace forward following output directions until chain ends
-        /// 3. Create ConveyorChain objects for each discovered sequence
+        /// 1. Find all IItemProducer entities that are NOT IChainableEntity
+        /// 2. If they are connected to a conveyor, trace the chain forward to a consumer
+        /// 3. Create a ConveyorChain object for each discovered sequence
     }
 }
