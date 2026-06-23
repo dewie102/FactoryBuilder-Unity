@@ -17,12 +17,14 @@ namespace Assets.Scripts.Core
         {
             WorldManager.EntityPlaced += HandleEntityPlaced;
             WorldManager.EntityRemoved += HandleEntityRemoved;
+            WorldManager.EntityRotated += HandleEntityRotated;
         }
 
         private void OnDisable()
         {
             WorldManager.EntityPlaced -= HandleEntityPlaced;
             WorldManager.EntityRemoved -= HandleEntityRemoved;
+            WorldManager.EntityRotated -= HandleEntityRotated;
         }
 
         private void HandleEntityPlaced(Vector3Int cellPosition, Entity entity)
@@ -64,6 +66,19 @@ namespace Assets.Scripts.Core
                 Destroy(visual);
                 _entityVisuals.Remove(cellPosition);
             }
+        }
+
+        private void HandleEntityRotated(Vector3Int cellPosition, Entity entity)
+        {
+            if(!_entityVisuals.ContainsKey(cellPosition))
+            {
+                Debug.LogWarning($"Visual doesn't exist for rotated object. Entity={entity}, position={cellPosition}");
+                return;
+            }
+
+            GameObject obj = _entityVisuals[cellPosition];
+            obj.transform.Rotate(0.0f, 0.0f, 90.0f);
+            Debug.Log($"Rotated {entity} 90 degrees");
         }
     }
 }

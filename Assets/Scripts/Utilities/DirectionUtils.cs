@@ -40,4 +40,16 @@ public static class DirectionUtils
             _ => direction,
         };
     }
+
+    public static Direction GetRotatedDirection(Direction direction)
+    {
+        return direction switch
+        {
+            Direction.UP => Direction.LEFT,
+            Direction.LEFT => Direction.DOWN,
+            Direction.DOWN => Direction.RIGHT,
+            Direction.RIGHT => Direction.UP,
+            _ => direction,
+        };
+    }
 }

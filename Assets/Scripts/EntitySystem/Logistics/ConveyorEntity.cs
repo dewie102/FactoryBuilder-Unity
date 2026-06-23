@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
+using Assets.Scripts.Core;
 using Assets.Scripts.Data.Entities;
 using Assets.Scripts.EntitySystem.Interfaces;
 using UnityEngine;
@@ -74,6 +77,27 @@ namespace Assets.Scripts.EntitySystem.Logistics
 
             _currentItem = item;
             ItemAdded?.Invoke(item);
+        }
+
+        public override void Rotate(Dictionary<Direction, Entity> neighbors)
+        {
+            Direction newOutputDirection = DirectionUtils.GetRotatedDirection(OutputDirections.First());
+            Direction newInputDirection = DirectionUtils.GetRotatedDirection(InputDirections.First());
+
+            foreach(KeyValuePair<Direction, Entity> neighbor in neighbors)
+            {
+                if(neighbor.Key == newOutputDirection)
+                    continue;
+
+                if(neighbor.Value is IChainableEntity conveyor)
+                {
+                    newInputDirection = neighbor.Key;
+                    break;
+                }
+            }
+
+            SetOrientation(newInputDirection, newOutputDirection);
+            Debug.Log($"ConveyorEntity.Rotate: Rotated | inputDirection={newInputDirection} | outputDirection={newOutputDirection}");
         }
 
         public void SetOrientation(Direction input, Direction output)

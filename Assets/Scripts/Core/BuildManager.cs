@@ -52,6 +52,20 @@ namespace Assets.Scripts.Core
             }
         }
 
+        // TODO: Actually implement rotation in build mode, for now select mode will work.
+        public void Rotate()
+        {
+            if(SelectedEntity == null)
+            {
+                Debug.LogWarning("No enitty selected for building.");
+                return;
+            }
+
+            // Currently does nothing, need to work out rotating in the hover mode
+            // and how to maintain it when placed
+            return;
+        }
+
         private bool CanBuildAt(Vector3Int cellPosition)
         {
             // Check if there's already an entity

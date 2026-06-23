@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
+using Assets.Scripts.EntitySystem.Interfaces;
 
 using UnityEngine;
 
@@ -28,7 +31,19 @@ namespace Assets.Scripts.Core
 
         public void HandleChainConnections()
         {
-            // Handle moving items between connected chains
+            foreach(var chain in _chains)
+            {
+                if(WorldManager.Instance.GetEntityAt(chain.OutputPosition) is IItemProducer conveyor)
+                {
+                    Vector3Int outputDirectionPosition = chain.OutputPosition + DirectionUtils.ToVector3Int(conveyor.OutputDirections.First());
+                    if(WorldManager.Instance.GetEntityAt(outputDirectionPosition) is IItemConsumer consumer && consumer is not IChainableEntity)
+                    {
+                        if(conveyor.PeekItem() != null && consumer.TryConsumeItem(conveyor.PeekItem()))
+                            conveyor.RemoveItem();
+
+                    }
+                }
+            }
         }
     }
 }

@@ -12,10 +12,16 @@ namespace Assets.Scripts.Core
 
         private GameInputState currentState = GameInputState.SelectMode;
         private Vector3 mouseWorldPos;
+        private WorldManager worldManager;
 
         private void Awake()
         {
             Instance = this;
+        }
+
+        private void Start()
+        {
+            worldManager = WorldManager.Instance;
         }
 
         void Update()
@@ -32,7 +38,16 @@ namespace Assets.Scripts.Core
                     break;
                 case GameInputState.SelectMode:
                     if(Mouse.current.leftButton.wasPressedThisFrame)
-                        HandleSelect(mouseWorldPos);
+                        worldManager.SelectEntity(mouseWorldPos);
+                    if(Keyboard.current.rKey.wasPressedThisFrame)
+                        worldManager.RotateEntity(mouseWorldPos);
+                    break;
+                case GameInputState.DeleteMode:
+                    if(Mouse.current.leftButton.wasPressedThisFrame)
+                    {
+                        Vector3Int cellPosition = worldManager.WorldToCell(mouseWorldPos);
+                        worldManager.RemoveEntity(cellPosition);
+                    }
                     break;
             }
 
@@ -40,18 +55,14 @@ namespace Assets.Scripts.Core
                 SetState(GameInputState.BuildMode);
             else if(Keyboard.current.pKey.wasPressedThisFrame)
                 SetState(GameInputState.SelectMode);
+            else if(Keyboard.current.xKey.wasPressedThisFrame)
+                SetState(GameInputState.DeleteMode);
         }
 
         public void SetState(GameInputState newState)
         {
             Debug.Log($"Changing States: Old State: {currentState} | New State: {newState}");
             currentState = newState;
-        }
-
-        private void HandleSelect(Vector3 pos)
-        {
-            // Do some selection logic?
-            Debug.Log($"Selected at: {pos}");
         }
     }
 }

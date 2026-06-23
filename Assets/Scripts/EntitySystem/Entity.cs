@@ -1,4 +1,6 @@
-﻿using Assets.Scripts.Data.Entities;
+﻿using System.Collections.Generic;
+
+using Assets.Scripts.Data.Entities;
 using UnityEngine;
 
 namespace Assets.Scripts.EntitySystem
@@ -16,6 +18,11 @@ namespace Assets.Scripts.EntitySystem
         public virtual void OnTick()
         {
             Debug.Log("Base Entity tick called");
+        }
+
+        public virtual void Rotate(Dictionary<Direction, Entity> neighbors)
+        {
+
         }
     }
 }

@@ -5,12 +5,9 @@ using System.Text;
 
 using Assets.Scripts.Data.Entities;
 using Assets.Scripts.EntitySystem;
-using Assets.Scripts.EntitySystem.Interfaces;
 
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
-using static UnityEditor.ShaderData;
 
 namespace Assets.Scripts.Core
 {
@@ -24,6 +21,7 @@ namespace Assets.Scripts.Core
         // Events
         public static event Action<Vector3Int, Entity> EntityPlaced;
         public static event Action<Vector3Int> EntityRemoved;
+        public static event Action<Vector3Int, Entity> EntityRotated;
         public static event Action<ItemTransfer> ItemTransferred;
 
         [Header("Grid Configuration")]
@@ -34,6 +32,8 @@ namespace Assets.Scripts.Core
         private Dictionary<Vector3Int, Entity> _entities = new();
 
         private ConveyorChainManager _conveyorChainManager = new();
+
+        public Entity SelectedEntity = null;
 
         #region Unity Lifecycle
         public void Awake()
@@ -91,6 +91,32 @@ namespace Assets.Scripts.Core
             return true;
         }
 
+        public void RotateEntity(Vector3 position)
+        {
+            Vector3Int cellPosition = Instance.WorldToCell(position);
+            Entity entity = Instance.GetEntityAt(cellPosition);
+            if(entity == null)
+                return;
+
+            Dictionary<Direction, Entity> neighbors = new();
+            
+            foreach(Direction direction in Enum.GetValues(typeof(Direction)))
+            {
+                Entity neighbor = GetEntityAt(GetNeighborInDirection(cellPosition, direction));
+                neighbors[direction] = neighbor;
+            }
+
+            entity.Rotate(neighbors);
+            EntityRotated?.Invoke(cellPosition, entity);
+        }
+
+        public void SelectEntity(Vector3 position)
+        {
+            Vector3Int cellPosition = Instance.WorldToCell(position);
+            SelectedEntity = Instance.GetEntityAt(cellPosition);
+            Debug.Log($"Selected {SelectedEntity} at {cellPosition}");
+        }
+
         public Entity GetEntityAt(Vector3Int position)
         {
             _entities.TryGetValue(position, out Entity entity);
@@ -138,7 +164,8 @@ namespace Assets.Scripts.Core
             };
         }
 
-        public Vector3Int GetNeighborsInDirection(Vector3Int position, Direction direction)
+        // TODO: Use this in the chain files since I manually do this constantly
+        public Vector3Int GetNeighborInDirection(Vector3Int position, Direction direction)
         {
             Vector3Int offset = DirectionUtils.ToVector3Int(direction);
             return position + offset;
@@ -156,6 +183,7 @@ namespace Assets.Scripts.Core
 
         private void ProcessEntities()
         {
+            _conveyorChainManager.HandleChainConnections();
             _conveyorChainManager.ProcessAllChains();
 
             var allEntityPositions = _entities.Keys.ToList();
