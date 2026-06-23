@@ -3462,6 +3462,7 @@ GameObject:
   - component: {fileID: 524163060}
   - component: {fileID: 524163061}
   - component: {fileID: 524163062}
+  - component: {fileID: 524163063}
   m_Layer: 0
   m_Name: DebugManager
   m_TagString: Untagged
@@ -3516,6 +3517,20 @@ MonoBehaviour:
   autoSimulationToggle: {fileID: 882588451}
   tickIntervalSlider: {fileID: 1165079774}
   debugText: {fileID: 735576452}
+--- !u!114 &524163063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524163059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ec8e07c849329418fe19bb0bce2c47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.DevTools.RuntimeDebugger.ChainDebugVisualizer
+  showChainColors: 1
+  highlightAlpha: 0.5
 --- !u!1 &551250672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4505,11 +4520,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1975486387613600876, guid: 1c420cda7142923308e8cb21b1f6b9b3, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1975486387613600876, guid: 1c420cda7142923308e8cb21b1f6b9b3, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1975486387613600876, guid: 1c420cda7142923308e8cb21b1f6b9b3, type: 3}
       propertyPath: m_AnchorMax.x

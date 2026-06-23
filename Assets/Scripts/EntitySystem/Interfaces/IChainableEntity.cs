@@ -8,8 +8,5 @@ namespace Assets.Scripts.EntitySystem.Interfaces
 {
     public interface IChainableEntity
     {
-        Direction InputDirection { get; }
-        Direction OutputDirection { get; }
-        bool CanChainWith();
     }
 }

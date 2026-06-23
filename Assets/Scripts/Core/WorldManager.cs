@@ -33,6 +33,8 @@ namespace Assets.Scripts.Core
         // Entity Management
         private Dictionary<Vector3Int, Entity> _entities = new();
 
+        private ConveyorChainManager _conveyorChainManager = new();
+
         #region Unity Lifecycle
         public void Awake()
         {
@@ -66,6 +68,9 @@ namespace Assets.Scripts.Core
 
             EntityPlaced?.Invoke(position, entity); // Notify listeners
             Debug.Log($"Placed entity {entityData.id} at {position}");
+
+            _conveyorChainManager.DetectChains();
+            Debug.Log("Rebuilt conveyor chains");
             return true;
         }
 
@@ -80,6 +85,9 @@ namespace Assets.Scripts.Core
             _entities.Remove(position);
             EntityRemoved?.Invoke(position); // Notify listeners
             Debug.Log($"Removed entity from {position}");
+
+            _conveyorChainManager.DetectChains();
+            Debug.Log("Rebuilt conveyor chains");
             return true;
         }
 
@@ -148,7 +156,7 @@ namespace Assets.Scripts.Core
 
         private void ProcessEntities()
         {
-            //ConveyorChainManager.ProcessAllChains();
+            _conveyorChainManager.ProcessAllChains();
 
             var allEntityPositions = _entities.Keys.ToList();
             foreach(var entityPosition in allEntityPositions)

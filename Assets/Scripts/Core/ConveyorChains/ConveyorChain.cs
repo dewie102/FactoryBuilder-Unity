@@ -1,4 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+
+using Assets.Scripts.EntitySystem;
+using Assets.Scripts.EntitySystem.Interfaces;
+using Assets.Scripts.EntitySystem.Logistics;
 
 using UnityEngine;
 
@@ -12,7 +17,40 @@ namespace Assets.Scripts.Core
 
         public void AdvanceItems()
         {
+            WorldManager worldManager = WorldManager.Instance;
+            ConveyorEntity previousConveyor = null;
+            for(int index = (Positions.Count - 1); index >= 0; index--)
+            {
+                if(worldManager.GetEntityAt(Positions[index]) is ConveyorEntity conveyor)
+                {
+                    if(conveyor.HasItem && previousConveyor != null)
+                    {
+                        if(!previousConveyor.HasItem)
+                        {
+                            if(previousConveyor.TryConsumeItem(conveyor.PeekItem()))
+                            {
+                                conveyor.RemoveItem();
+                            }
+                        }
+                    }
 
+                    previousConveyor = conveyor;
+                }
+            }
+
+            // Pull item from the producer into the first conveyor
+            if(Positions.Count > 0 && worldManager.GetEntityAt(Positions[0]) is ConveyorEntity firstConveyor && !firstConveyor.HasItem)
+            {
+                Direction inputDir = firstConveyor.InputDirections.First();
+                Vector3Int producerPos = Positions[0] + DirectionUtils.ToVector3Int(inputDir);
+                Entity producerEntity = worldManager.GetEntityAt(producerPos);
+
+                if(producerEntity is IItemProducer producer && producerEntity is not IChainableEntity && producer.HasItem)
+                {
+                    if(firstConveyor.TryConsumeItem(producer.PeekItem()))
+                        producer.RemoveItem();
+                }
+            }
         }
     }
 }

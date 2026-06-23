@@ -6,10 +6,10 @@ using UnityEngine;
 
 namespace Assets.Scripts.EntitySystem.Logistics
 {
-    public class ConveyorEntity : Entity, IItemConsumer, IItemProducer
+    public class ConveyorEntity : Entity, IItemConsumer, IItemProducer, IChainableEntity
     {
-        private readonly HashSet<Direction> _inputDirection = new();
-        private readonly HashSet<Direction> _outputDirection = new();
+        private readonly HashSet<Direction> _inputDirections = new();
+        private readonly HashSet<Direction> _outputDirections = new();
 
         private Item _currentItem;
 
@@ -24,9 +24,8 @@ namespace Assets.Scripts.EntitySystem.Logistics
 
         public bool HasItem => _currentItem != null;
 
-        public IEnumerable<Direction> InputDirections => _inputDirection;
-
-        public IEnumerable<Direction> OutputDirections => _outputDirection;
+        public IEnumerable<Direction> InputDirections => _inputDirections;
+        public IEnumerable<Direction> OutputDirections => _outputDirections;
 
         public override void OnTick()
         {
@@ -79,11 +78,11 @@ namespace Assets.Scripts.EntitySystem.Logistics
 
         public void SetOrientation(Direction input, Direction output)
         {
-            _inputDirection.Clear();
-            _outputDirection.Clear();
+            _inputDirections.Clear();
+            _outputDirections.Clear();
 
-            _inputDirection.Add(input);
-            _outputDirection.Add(output);
+            _inputDirections.Add(input);
+            _outputDirections.Add(output);
         }
     }
 }
