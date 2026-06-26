@@ -44,6 +44,7 @@ namespace Assets.Scripts.Core
             Direction requiredInputDirection = DirectionUtils.Reverse(outputDirection);
             Vector3Int nextPosition = startProducer.Key + DirectionUtils.ToVector3Int(outputDirection);
             Entity nextEntity = WorldManager.Instance.GetEntityAt(nextPosition);
+
             while(nextEntity is IChainableEntity && nextEntity is IItemProducer conveyor)
             {
                 if(conveyor is not IItemConsumer consumer || !consumer.InputDirections.Contains(requiredInputDirection))
@@ -54,7 +55,7 @@ namespace Assets.Scripts.Core
                 chain.Positions.Add(nextPosition);
                 Direction nextEntityOutputDirection = conveyor.OutputDirections.First();
                 requiredInputDirection = DirectionUtils.Reverse(nextEntityOutputDirection);
-                nextPosition = nextPosition + DirectionUtils.ToVector3Int(nextEntityOutputDirection);
+                nextPosition = WorldManager.Instance.GetNeighborPositionInDirection(nextPosition, nextEntityOutputDirection);
                 nextEntity = WorldManager.Instance.GetEntityAt(nextPosition);
             }
 

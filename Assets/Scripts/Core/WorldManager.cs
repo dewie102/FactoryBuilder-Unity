@@ -49,7 +49,7 @@ namespace Assets.Scripts.Core
         #endregion
 
         #region Entity Management
-        public bool PlaceEntity(Vector3Int position, EntityData entityData)
+        public bool PlaceEntity(Vector3Int position, EntityData entityData, Direction? outputDirection = null)
         {
             if(HasEntityAt(position))
             {
@@ -66,7 +66,10 @@ namespace Assets.Scripts.Core
             Entity entity = EntityFactory.CreateEntity(entityData);
             _entities.Add(position, entity);
 
-            EntityPlaced?.Invoke(position, entity); // Notify listeners
+            if(outputDirection.HasValue)
+                entity.OnPlaced(outputDirection.Value, GetNeighborEntities(position));
+
+            EntityPlaced?.Invoke(position, entity);
             Debug.Log($"Placed entity {entityData.id} at {position}");
 
             _conveyorChainManager.DetectChains();
@@ -98,16 +101,13 @@ namespace Assets.Scripts.Core
             if(entity == null)
                 return;
 
-            Dictionary<Direction, Entity> neighbors = new();
-            
-            foreach(Direction direction in Enum.GetValues(typeof(Direction)))
-            {
-                Entity neighbor = GetEntityAt(GetNeighborInDirection(cellPosition, direction));
-                neighbors[direction] = neighbor;
-            }
+            Dictionary<Direction, Entity> neighbors = GetNeighborEntities(cellPosition);
 
             entity.Rotate(neighbors);
             EntityRotated?.Invoke(cellPosition, entity);
+
+            _conveyorChainManager.DetectChains();
+            Debug.Log("Rebuilt conveyor chains after rotation");
         }
 
         public void SelectEntity(Vector3 position)
@@ -164,11 +164,30 @@ namespace Assets.Scripts.Core
             };
         }
 
-        // TODO: Use this in the chain files since I manually do this constantly
-        public Vector3Int GetNeighborInDirection(Vector3Int position, Direction direction)
+        public Dictionary<Direction, Entity> GetNeighborEntities(Vector3Int position)
+        {
+            Dictionary<Direction, Entity> neighbors = new();
+
+            foreach(Direction direction in Enum.GetValues(typeof(Direction)))
+            {
+                Entity neighbor = GetEntityAt(GetNeighborPositionInDirection(position, direction));
+                neighbors[direction] = neighbor;
+            }
+
+            return neighbors;
+        }
+
+        public Vector3Int GetNeighborPositionInDirection(Vector3Int position, Direction direction)
         {
             Vector3Int offset = DirectionUtils.ToVector3Int(direction);
             return position + offset;
+        }
+
+        public Entity GetNeighborEntityInDirection(Vector3Int position, Direction direction)
+        {
+            Vector3Int neighborPosition = position + DirectionUtils.ToVector3Int(direction);
+
+            return GetEntityAt(neighborPosition);
         }
         #endregion
 

@@ -1,3 +1,7 @@
+using System.Linq;
+
+using Assets.Scripts.Data.Entities;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +13,7 @@ namespace Assets.Scripts.Core
 
         [SerializeField] private CameraController cameraController;
         [SerializeField] private BuildManager buildManager;
+        [SerializeField] private EntityLibrary entityLibrary;
 
         private GameInputState currentState = GameInputState.SelectMode;
         private Vector3 mouseWorldPos;
@@ -33,8 +38,11 @@ namespace Assets.Scripts.Core
             switch(currentState)
             {
                 case GameInputState.BuildMode:
+                    buildManager.HandleHover(mouseWorldPos);
                     if(Mouse.current.leftButton.wasPressedThisFrame)
                         buildManager.HandleClick(mouseWorldPos);
+                    if(Keyboard.current.rKey.wasPressedThisFrame)
+                        buildManager.Rotate();
                     break;
                 case GameInputState.SelectMode:
                     if(Mouse.current.leftButton.wasPressedThisFrame)
@@ -57,11 +65,29 @@ namespace Assets.Scripts.Core
                 SetState(GameInputState.SelectMode);
             else if(Keyboard.current.xKey.wasPressedThisFrame)
                 SetState(GameInputState.DeleteMode);
+
+            HandleEntityHotkeys();
+        }
+
+        private void HandleEntityHotkeys()
+        {
+            var allEntities = entityLibrary.GetAll().ToArray();
+            for(int i = 0; i < Mathf.Min(allEntities.Length, 9); i++)
+            {
+                if(Keyboard.current[(Key)(Key.Digit1 + i)].wasPressedThisFrame)
+                {
+                    buildManager.SetSelectedEntity(allEntities[i]);
+                    SetState(GameInputState.BuildMode);
+                    break;
+                }
+            }
         }
 
         public void SetState(GameInputState newState)
         {
             Debug.Log($"Changing States: Old State: {currentState} | New State: {newState}");
+            if(currentState == GameInputState.BuildMode)
+                buildManager.ClearPreview();
             currentState = newState;
         }
     }

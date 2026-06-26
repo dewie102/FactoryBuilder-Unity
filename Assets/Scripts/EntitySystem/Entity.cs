@@ -8,7 +8,7 @@ namespace Assets.Scripts.EntitySystem
     public class Entity
     {
         public EntityData Data { get; private set; }
-        string Name { get; set; }
+        public string Name { get; set; }
 
         public Entity(EntityData data)
         {
@@ -21,6 +21,11 @@ namespace Assets.Scripts.EntitySystem
         }
 
         public virtual void Rotate(Dictionary<Direction, Entity> neighbors)
+        {
+
+        }
+
+        public virtual void OnPlaced(Direction outputDirection, Dictionary<Direction, Entity> neighbors)
         {
 
         }

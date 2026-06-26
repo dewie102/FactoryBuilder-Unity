@@ -1,4 +1,5 @@
 using Assets.Scripts.Data.Entities;
+using Assets.Scripts.EntitySystem;
 
 using UnityEngine;
 
@@ -16,6 +17,7 @@ namespace Assets.Scripts.Core
         [Header("Visual Feedback")]
         [SerializeField] private GameObject buildPreviewPrefab; // Optional; preview ghost
         private GameObject _currentPreview;
+        private Direction _pendingOutputDirection = Direction.RIGHT;
 
         public EntityData SelectedEntity
         {
@@ -41,18 +43,15 @@ namespace Assets.Scripts.Core
                 Debug.Log($"Cannot build at {cellPosition}");
             }
 
-            bool success = WorldManager.Instance.PlaceEntity(cellPosition, selectedEntity);
+            bool success = WorldManager.Instance.PlaceEntity(cellPosition, selectedEntity, _pendingOutputDirection);
             if(success)
-            {
                 Debug.Log($"Successfully placed {selectedEntity.displayName} at {cellPosition}");
-            }
             else
             {
                 Debug.LogWarning($"Failed to place {selectedEntity.displayName} at {cellPosition}");
             }
         }
 
-        // TODO: Actually implement rotation in build mode, for now select mode will work.
         public void Rotate()
         {
             if(SelectedEntity == null)
@@ -61,9 +60,9 @@ namespace Assets.Scripts.Core
                 return;
             }
 
-            // Currently does nothing, need to work out rotating in the hover mode
-            // and how to maintain it when placed
-            return;
+            _pendingOutputDirection = DirectionUtils.GetRotatedDirection(_pendingOutputDirection);
+            if(_currentPreview != null)
+                _currentPreview.transform.Rotate(0.0f, 0.0f, 90.0f);
         }
 
         private bool CanBuildAt(Vector3Int cellPosition)
@@ -83,22 +82,24 @@ namespace Assets.Scripts.Core
 
         public void HandleHover(Vector3 worldPosition)
         {
-            if(selectedEntity == null) return;
+            if(selectedEntity == null || buildPreviewPrefab == null) return;
 
             Vector3Int cellPosition = WorldManager.Instance.WorldToCell(worldPosition);
             Vector3 worldCellPosition = WorldManager.Instance.CellToWorld(cellPosition);
 
-            // Update preview position
+            if(_currentPreview == null)
+                _currentPreview = Instantiate(buildPreviewPrefab, worldCellPosition, Quaternion.identity);
+            else
+                _currentPreview.transform.position = worldCellPosition;
+        }
+
+        public void ClearPreview()
+        {
             if(_currentPreview != null)
             {
-                _currentPreview.transform.position = worldCellPosition;
-
-                // Instantiate preview if it doesn't exist
-                _currentPreview = Instantiate(buildPreviewPrefab, worldCellPosition, Quaternion.identity);
-
-                // Change color based on validity
-                bool canBuild = CanBuildAt(cellPosition);
-                // Update preview visual based on canBuild
+                Destroy(_currentPreview);
+                _currentPreview = null;
+                _pendingOutputDirection = Direction.RIGHT;
             }
         }
 
@@ -106,6 +107,10 @@ namespace Assets.Scripts.Core
         {
             SelectedEntity = entityData;
             Debug.Log($"Selected entity for building: {entityData.displayName}");
+            if(_currentPreview != null)
+                Destroy(_currentPreview);
+
+            buildPreviewPrefab = entityData.prefab;
         }
     }
 }

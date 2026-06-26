@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
 using Assets.Scripts.Data.Entities;
 using Assets.Scripts.Data.Items;
 using Assets.Scripts.EntitySystem.Interfaces;
@@ -7,15 +9,10 @@ using UnityEngine;
 
 namespace Assets.Scripts.EntitySystem.Resources
 {
-    public class ResourceNodeEntity : Entity, IItemProducer
+    public class ResourceNodeEntity : ItemHolderEntity, IItemProducer
     {
         private readonly HashSet<Direction> _outputDirections = new();
         private ItemData _itemToProduce;
-        private Item _currentItem;
-
-        // Events
-        public event Action<Item> ItemAdded;
-        public event Action ItemRemoved;
 
         public ResourceNodeEntity(EntityData data) : base(data)
         {
@@ -25,42 +22,31 @@ namespace Assets.Scripts.EntitySystem.Resources
 
         public IEnumerable<Direction> OutputDirections => _outputDirections;
 
-        public bool HasItem => _currentItem != null;
-
         public override void OnTick()
         {
             Debug.Log($"ResourceNodeEntity: Ticking - HasItem: {HasItem}");
-            if(_currentItem == null)
+            if(!HasItem)
             {
-                _currentItem = new Item(_itemToProduce);
-                ItemAdded?.Invoke(_currentItem);
-                Debug.Log($"ResourceNodeEntity: Produced {_currentItem.DisplayName}");
+                Item producedItem = new Item(_itemToProduce);
+                AddItem(producedItem);
+                Debug.Log($"ResourceNodeEntity: Produced {producedItem.DisplayName}");
             }
             else
             {
-                Debug.Log($"ResourceNodeEntity: Already has item: {_currentItem.DisplayName}");
+                Debug.Log($"ResourceNodeEntity: Already has item: {PeekItem().DisplayName}");
             }
         }
 
-        public Item PeekItem()
+        public override bool CanConsumeItem(Item item)
         {
-            return _currentItem;
-        }
-
-        public void RemoveItem()
-        {
-            _currentItem = null;
-            ItemRemoved?.Invoke();
+            return false;
         }
 
         public override void Rotate(Dictionary<Direction, Entity> _)
         {
-            foreach(var direction in OutputDirections)
-            {
-                Direction newOutputDirection = DirectionUtils.GetRotatedDirection(direction);
-                SetOrientation(newOutputDirection);
-                Debug.Log($"ResourceNodeEntity.Rotate: Rotated | outputDirection={newOutputDirection}");
-            }
+            Direction newOutputDirection = DirectionUtils.GetRotatedDirection(OutputDirections.First());
+            SetOrientation(newOutputDirection);
+            Debug.Log($"ResourceNodeEntity.Rotate: Rotated | outputDirection={newOutputDirection}");
         }
 
         public void SetOrientation(Direction output)
@@ -68,6 +54,13 @@ namespace Assets.Scripts.EntitySystem.Resources
             _outputDirections.Clear();
 
             _outputDirections.Add(output);
+
+            NotifyDirectionsChanged();
+        }
+
+        public override void SetOutputDirection(Direction direction)
+        {
+            SetOrientation(direction);
         }
     }
 }

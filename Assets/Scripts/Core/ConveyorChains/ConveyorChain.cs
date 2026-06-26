@@ -41,9 +41,7 @@ namespace Assets.Scripts.Core
             // Pull item from the producer into the first conveyor
             if(Positions.Count > 0 && worldManager.GetEntityAt(Positions[0]) is ConveyorEntity firstConveyor && !firstConveyor.HasItem)
             {
-                Direction inputDir = firstConveyor.InputDirections.First();
-                Vector3Int producerPos = Positions[0] + DirectionUtils.ToVector3Int(inputDir);
-                Entity producerEntity = worldManager.GetEntityAt(producerPos);
+                Entity producerEntity = worldManager.GetNeighborEntityInDirection(Positions[0], firstConveyor.InputDirections.First());
 
                 if(producerEntity is IItemProducer producer && producerEntity is not IChainableEntity && producer.HasItem)
                 {

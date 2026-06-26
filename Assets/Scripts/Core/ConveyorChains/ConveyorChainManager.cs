@@ -12,7 +12,7 @@ namespace Assets.Scripts.Core
     {
         public static event Action<List<ConveyorChain>> ChainsDetected;
 
-        private ChainDetector _detector = new();
+        private readonly ChainDetector _detector = new();
         private List<ConveyorChain> _chains = new();
 
         public void DetectChains()
@@ -35,8 +35,8 @@ namespace Assets.Scripts.Core
             {
                 if(WorldManager.Instance.GetEntityAt(chain.OutputPosition) is IItemProducer conveyor)
                 {
-                    Vector3Int outputDirectionPosition = chain.OutputPosition + DirectionUtils.ToVector3Int(conveyor.OutputDirections.First());
-                    if(WorldManager.Instance.GetEntityAt(outputDirectionPosition) is IItemConsumer consumer && consumer is not IChainableEntity)
+                    if(WorldManager.Instance.GetNeighborEntityInDirection(chain.OutputPosition, conveyor.OutputDirections.First()) is IItemConsumer consumer && 
+                        consumer is not IChainableEntity)
                     {
                         if(conveyor.PeekItem() != null && consumer.TryConsumeItem(conveyor.PeekItem()))
                             conveyor.RemoveItem();

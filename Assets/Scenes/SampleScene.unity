@@ -3244,6 +3244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraController: {fileID: 90664838}
   buildManager: {fileID: 1004785956}
+  entityLibrary: {fileID: 11400000, guid: 4e67e364b8e4a86e8990e6d64b9b4900, type: 2}
 --- !u!1 &90664836
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,3 +1,5 @@
+using System.Linq;
+
 using Assets.Scripts.EntitySystem;
 using Assets.Scripts.EntitySystem.Interfaces;
 
@@ -7,6 +9,9 @@ namespace Assets.Scripts.EntitySystem
 {
     public class EntityView : MonoBehaviour
     {
+        [Header("Entity Sprite")]
+        [SerializeField] private Transform entitySpriteTransform;
+
         [Header("Item Display")]
         [SerializeField] private Transform itemDisplayPoint;
         [SerializeField] private SpriteRenderer itemSpriteRenderer;
@@ -18,38 +23,66 @@ namespace Assets.Scripts.EntitySystem
         {
             _entity = entity;
 
-            // Subscribe to entity events
             if(_entity is IItemProducer producer)
             {
-                // Listen for item changes on producers
                 producer.ItemAdded += OnItemAdded;
                 producer.ItemRemoved += OnItemRemoved;
             }
 
             if(_entity is IItemConsumer consumer)
             {
-                // Listen for item changes on consumers
                 consumer.ItemAdded += OnItemAdded;
                 consumer.ItemRemoved += OnItemRemoved;
             }
+
+            if(_entity is ItemHolderEntity holder)
+                holder.DirectionsChanged += OnDirectionsChanged;
+
+            ApplyOrientationVisual();
         }
 
         private void OnDestroy()
         {
-            // Unsubscribe from entity events
             if(_entity is IItemProducer producer)
             {
-                // Listen for item changes on producers
                 producer.ItemAdded -= OnItemAdded;
                 producer.ItemRemoved -= OnItemRemoved;
             }
 
             if(_entity is IItemConsumer consumer)
             {
-                // Listen for item changes on consumers
                 consumer.ItemAdded -= OnItemAdded;
                 consumer.ItemRemoved -= OnItemRemoved;
             }
+
+            if(_entity is ItemHolderEntity holder)
+                holder.DirectionsChanged -= OnDirectionsChanged;
+        }
+
+        private void OnDirectionsChanged()
+        {
+            ApplyOrientationVisual();
+        }
+
+        private void ApplyOrientationVisual()
+        {
+            Direction facing = Direction.RIGHT;
+
+            if(_entity is IItemProducer producer && producer.OutputDirections.Any())
+                facing = producer.OutputDirections.First();
+            else if(_entity is IItemConsumer consumer && consumer.InputDirections.Any())
+                facing = DirectionUtils.Reverse(consumer.InputDirections.First());
+
+            float angle = facing switch
+            {
+                Direction.RIGHT => 0f,
+                Direction.UP    => 90f,
+                Direction.LEFT  => 180f,
+                Direction.DOWN  => 270f,
+                _               => 0f
+            };
+
+            entitySpriteTransform.rotation = Quaternion.Euler(0f, 0f, angle);
         }
 
         private void OnItemAdded(Item item)
@@ -72,7 +105,7 @@ namespace Assets.Scripts.EntitySystem
             if(item?.prefab != null)
             {
                 Vector3 displayPosition = itemDisplayPoint != null ? itemDisplayPoint.position : transform.position;
-                _currentItemVisual = Instantiate(item.prefab, displayPosition, Quaternion.identity, transform);
+                _currentItemVisual = Instantiate(item.prefab, displayPosition, Quaternion.identity, itemDisplayPoint);
 
                 // Make it slightly smaller and offset so it doesn't hide the entity
                 _currentItemVisual.transform.localScale = Vector3.one * 0.7f;

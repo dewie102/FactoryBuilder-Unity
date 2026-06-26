@@ -11,7 +11,7 @@ namespace Assets.Scripts.Core
     public class VisualManager : MonoBehaviour
     {
         [SerializeField] private EntityLibrary entityLibrary;
-        private Dictionary<Vector3Int, GameObject> _entityVisuals = new();
+        private readonly Dictionary<Vector3Int, GameObject> _entityVisuals = new();
 
         private void OnEnable()
         {
@@ -68,17 +68,6 @@ namespace Assets.Scripts.Core
             }
         }
 
-        private void HandleEntityRotated(Vector3Int cellPosition, Entity entity)
-        {
-            if(!_entityVisuals.ContainsKey(cellPosition))
-            {
-                Debug.LogWarning($"Visual doesn't exist for rotated object. Entity={entity}, position={cellPosition}");
-                return;
-            }
-
-            GameObject obj = _entityVisuals[cellPosition];
-            obj.transform.Rotate(0.0f, 0.0f, 90.0f);
-            Debug.Log($"Rotated {entity} 90 degrees");
-        }
+        private void HandleEntityRotated(Vector3Int cellPosition, Entity entity) { }
     }
 }
