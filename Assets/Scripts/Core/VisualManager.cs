@@ -11,18 +11,20 @@ namespace Assets.Scripts.Core
     public class VisualManager : MonoBehaviour
     {
         [SerializeField] private EntityLibrary entityLibrary;
-        private Dictionary<Vector3Int, GameObject> _entityVisuals = new();
+        private readonly Dictionary<Vector3Int, GameObject> _entityVisuals = new();
 
         private void OnEnable()
         {
             WorldManager.EntityPlaced += HandleEntityPlaced;
             WorldManager.EntityRemoved += HandleEntityRemoved;
+            WorldManager.EntityRotated += HandleEntityRotated;
         }
 
         private void OnDisable()
         {
             WorldManager.EntityPlaced -= HandleEntityPlaced;
             WorldManager.EntityRemoved -= HandleEntityRemoved;
+            WorldManager.EntityRotated -= HandleEntityRotated;
         }
 
         private void HandleEntityPlaced(Vector3Int cellPosition, Entity entity)
@@ -65,5 +67,7 @@ namespace Assets.Scripts.Core
                 _entityVisuals.Remove(cellPosition);
             }
         }
+
+        private void HandleEntityRotated(Vector3Int cellPosition, Entity entity) { }
     }
 }

@@ -28,4 +28,28 @@ public static class DirectionUtils
     {
         return _fromVector.TryGetValue(vec, out dir);
     }
+
+    public static Direction Reverse(Direction direction)
+    {
+        return direction switch
+        {
+            Direction.UP => Direction.DOWN,
+            Direction.DOWN => Direction.UP,
+            Direction.LEFT => Direction.RIGHT,
+            Direction.RIGHT => Direction.LEFT,
+            _ => direction,
+        };
+    }
+
+    public static Direction GetRotatedDirection(Direction direction)
+    {
+        return direction switch
+        {
+            Direction.UP => Direction.LEFT,
+            Direction.LEFT => Direction.DOWN,
+            Direction.DOWN => Direction.RIGHT,
+            Direction.RIGHT => Direction.UP,
+            _ => direction,
+        };
+    }
 }
